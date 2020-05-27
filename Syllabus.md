@@ -58,7 +58,7 @@ There will be five quizzes, with the lowest grade dropped from your quiz average
 ### Final Project (40% of Course Grade)
 The final project is meant to be a demonstration that the course objectives have been met. Project details and requirements will be distributed in the fourth week of class. **Deliverables are a Jupyter Notebook and a 10 minute structured walkthrough presentation. Class presentations will be submitted via Youtube.** 
 
-# Dates and Deliverables
+## Dates and Deliverables
 
 | Week | Topic/Assignment                 | Release | Deadline |
 |------|----------------------------------|---------|----------|
