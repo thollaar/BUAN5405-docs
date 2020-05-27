@@ -33,7 +33,8 @@ Email: chuntley@fairfield.edu
 * **Hardware:** While the software tools are online, you will want a professional-grade laptop or desktop computer with the largest screen and the most RAM you can afford.   
 * **Websites:**  
     * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/buan5405-docs).
-    * Programing assignments are posted and managed in GitHub Classroom and [Data Camp](https://datacamp.com).
+    * Programing assignments are posted and managed in GitHub Classroom.
+    * Class communications will be via Slack at fairfield-dolan.slack.com. 
     * [DataCamp](https://datacamp.com) exercises will be used to complement the class lessons.
     * The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM)
 
