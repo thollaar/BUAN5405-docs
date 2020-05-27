@@ -64,35 +64,35 @@ The final project is meant to be a demonstration that the course objectives have
 | Week | Topic/Assignment                 | Release | Deadline |
 |------|----------------------------------|---------|----------|
 | <p align="center">0</p>  | **Course Onboarding**            | July 1  | July 6   |
-| 1    | **Getting Started**              |         |          |
+| <p align="center">1</p>   | **Getting Started**              |         |          |
 |      | Lesson 1: Python Preliminaries   | July 6  | July 12  |
 |      | Lesson 2: Basic Computation      | July 6  | July 12  |
 |      | Datacamp: Introduction to Python |         | July 12  |
 |      | Quiz 1                           | July 12 | July 13  |
-| 2    | **Structured Logic**             |         |          |
+| <p align="center">2</p>| **Structured Logic**             |         |          |
 |      | Lesson 3: Conditional Execution  | July 13 | July 16  |
 |      | Datacamp: Python Lists           |         | July 16  |
 |      | Lesson 4: Functions              | July 13 | July 18  |
 |      | DataCamp: Functions and Packages |         | July 18  |
 |      | Lesson 5: Iteration              | July 13 | July 19  |
 |      | Quiz 2                           | July 19 | July 20  |
-| 3    | **Data Structures**              |         |          |
+| <p align="center">3</p>| **Data Structures**              |         |          |
 |      | Lesson 6: Strings                | July 20 | July 24  |
 |      | Lesson 7: Files                  | July 20 | July 24  |
 |      | Lesson 8: Lists                  | July 20 | July 26  |
 |      | Quiz 3                           | July 26 | July 27  |
-| 4    | **Data Structures (cont.)**      |         |          |
+| <p align="center">4</p> | **Data Structures (cont.)**      |         |          |
 |      | *Project Assigned*               | July 27 |          |
 |      | Lesson 9: Dicts                  | July 27 | July 30 |
 |      | Lesson 10: Tuples                | July 27 | August 2 |
 |      | DataCamp: Data Types for Data Science in Python | | August 2|
 |      | Quiz 4                           | August 2 | August 3|
-| 5    | **Advanced Data Structures**     |          |         |
+| <p align="center">5</p> | **Advanced Data Structures**     |          |         |
 |      | Lesson 11: Nested Hierarchies    | August 3 | August 5|
 |      | Quiz 5                           | August 6 | August 8|
 |      | Lesson 12: pandas DataFrames     | August 3 | August 8|
 |      | DataCamp: pandas Foundations     |          | August 8|
-| 6    | **Final Project**                |          |          |
+| <p align="center">6</p>| **Final Project**                |          |          |
 |      | Code Submitted via GitHub        |          | August 12|
 |      | Presentation via Youtube         |          | August 14||
 
