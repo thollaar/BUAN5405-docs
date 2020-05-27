@@ -62,7 +62,7 @@ The final project is meant to be a demonstration that the course objectives have
 ## Dates and Deliverables
 
 | Week | Topic/Assignment                 | Release | Deadline |
-| :--: |----------------------------------|---------|----------|
+| :--: |----------------------------------|-------: |--------: |
 | 0    | **Course Onboarding**            | July 1  | July 6   |
 | 1    | **Getting Started**              |         |          |
 |      | Lesson 1: Python Preliminaries   | July 6  | July 12  |
