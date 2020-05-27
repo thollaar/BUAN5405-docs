@@ -48,7 +48,7 @@ This is a graduate class intended for aspiring *professionals*:
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
-*If you cannot abide by these policies then please take another course. *
+*If you cannot abide by these policies then please take another course.*
 
 ## Assignments and Course Grade
 ### Professionalism (20% of Course Grade)
