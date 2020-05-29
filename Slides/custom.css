@@ -1,0 +1,44 @@
+/*********************************************
+ * BRANDING
+ *********************************************/
+.reveal img[alt="DSB Logo"] {
+    width:50%
+      margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw);
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    text-transform: none;
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    font-weight:700;
+}
+
+.reveal h1 {
+    color:red;
+}
+
+/*********************************************
+ * Figures
+ *********************************************/
+.reveal p img[alt*=" - right"] {
+    float:right;
+}
+
+.reveal p img[alt*=" - fullwidth"] {
+    margin-left: calc(-100vw / 2 + 500px / 2);
+    margin-right: calc(-100vw / 2 + 500px / 2);
+}
+
+.reveal p img[alt*=" - topright"] {
+    position:fixed;
+    top:50px;
+    right:50px;
+}
