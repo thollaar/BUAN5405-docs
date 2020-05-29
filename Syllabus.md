@@ -27,13 +27,14 @@ Email: chuntley@fairfield.edu
   * Other times are by appointment only. However, use the class Slack channel for general inquiries.  
 
 ## Resources
-* **Textbook:** Python for Everybody: Exploring Data in Python 3, by Charles R. Severance, available [here](https://www.py4e.com/). The PDF, HTML, ad Kindle versions are free.
+* **Textbook:** Python for Everybody: Exploring Data in Python 3, by Charles R. Severance, available [here](https://www.py4e.com/). The PDF, HTML, and Kindle versions are free.
 * **Online Tutorials:** [Data Camps’s Online Python Courses](https://www.datacamp.com)
 * **Software:** [Google Colab](https://colab.research.google.com/) (programming environment), git/[GitHub](https://github.com/) (source code management), and Google Drive (https://drive.google.com) (collaborative work)
 * **Hardware:** While the software tools are online, you will want a professional-grade laptop or desktop computer with the largest screen and the most RAM you can afford.   
 * **Websites:**  
     * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/buan5405-docs).
-    * Programing assignments are posted and managed in GitHub Classroom and [Data Camp](https://datacamp.com).
+    * Programing assignments are posted and managed in GitHub Classroom.
+    * Class communications will be via Slack at fairfield-dolan.slack.com. 
     * [DataCamp](https://datacamp.com) exercises will be used to complement the class lessons.
     * The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM)
 
@@ -48,20 +49,20 @@ This is a graduate class intended for aspiring *professionals*:
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
-*If you cannot abide by these policies then please take another course. *
+*If you cannot abide by these policies then please take another course.*
 
 ## Assignments and Course Grade
 ### Professionalism (20% of Course Grade)
 Professionals get the job done. As you progress through the course, you will be asked to complete various DataCamp tutorials, challenge exercises, quizzes, and other hands-on work. **Please complete all asignments on time, as specified, using the resources above to the best of your ability.** 
 ### Quizzes (40% of Course Grade)
-There will be five quizzes, with the lowest grade dropped from your quiz average. They will be given on the days shown in the attached schedule of classes. Quizzes are closed book and closed notes. They are designed to last about 25 minutes, though students though you may take longer if needed. **Quizzes will be graded on the dates given below, after which missing submissions will be assigned a score of 0. After the second missed quiz, the maximum class grade is a B-.** 
+There will be five quizzes, with the lowest grade dropped from your quiz average. They will be given on the days shown in the attached schedule of classes. Quizzes are closed book and closed notes. They are designed to last about 25 minutes, though you may take longer if needed. **Quizzes will be graded on the dates given below, after which missing submissions will be assigned a score of 0. After the second missed quiz, the maximum class grade is a B-.** 
 ### Final Project (40% of Course Grade)
 The final project is meant to be a demonstration that the course objectives have been met. Project details and requirements will be distributed in the fourth week of class. **Deliverables are a Jupyter Notebook and a 10 minute structured walkthrough presentation. Class presentations will be submitted via Youtube.** 
 
-# Dates and Deliverables
+## Dates and Deliverables
 
 | Week | Topic/Assignment                 | Release | Deadline |
-|------|----------------------------------|---------|----------|
+| :--: |----------------------------------|-------: |--------: |
 | 0    | **Course Onboarding**            | July 1  | July 6   |
 | 1    | **Getting Started**              |         |          |
 |      | Lesson 1: Python Preliminaries   | July 6  | July 12  |
