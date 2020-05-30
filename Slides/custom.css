@@ -2,9 +2,12 @@
  * BRANDING
  *********************************************/
 .reveal img[alt="DSB Logo"] {
-    width:50%
-      margin-left: calc(50% - 50vw);
-      margin-right: calc(50% - 50vw);
+    position: fixed;
+    top:100px;
+    
+    /*width:60%;*/ 
+    /*margin-left: calc(50% - 30vw);
+    margin-right: calc(50% - 30vw);*/
 }
 
 /*********************************************
@@ -41,4 +44,8 @@
     position:fixed;
     top:50px;
     right:50px;
+}
+
+.h2_text {
+    
 }

@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>L1_Python_Preliminaries slides</title>
+<title>L0_Course_Onboarding slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13203,19 +13203,18 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="img/Dolan_wide.png" alt="DSB Logo"></p>
-<h1 id="Python-Preliminaries">Python Preliminaries<a class="anchor-link" href="#Python-Preliminaries">&#182;</a></h1><h2 id="PY4E-Chapter-1-(with-embellishments-from-your-instructor)">PY4E Chapter 1 (with embellishments from your instructor)<a class="anchor-link" href="#PY4E-Chapter-1-(with-embellishments-from-your-instructor)">&#182;</a></h2><h3 id="Concepts-you-should-know-before-your-first-program">Concepts you should know before your first program<a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h3>
+<h1 id="Course-Introduction">Course Introduction<a class="anchor-link" href="#Course-Introduction">&#182;</a></h1><h3 id="Everything-you-need-to-know-and-do-before-the-first-day-of-class">Everything you need to know and do before the first day of class<a class="anchor-link" href="#Everything-you-need-to-know-and-do-before-the-first-day-of-class">&#182;</a></h3>
 </div>
 </div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Learning-Objectives">Learning Objectives<a class="anchor-link" href="#Learning-Objectives">&#182;</a></h1><h2 id="Theory-/-Be-able-to-explain-...">Theory / Be able to explain ...<a class="anchor-link" href="#Theory-/-Be-able-to-explain-...">&#182;</a></h2><ul>
-<li>General programming terms like source code, interpreter, compiler, object code, comment, data type, etc.</li>
-<li>The different types of errors that require debugging</li>
-</ul>
-<h2 id="Skills-/-Know-how-to--...">Skills / Know how to  ...<a class="anchor-link" href="#Skills-/-Know-how-to--...">&#182;</a></h2><ul>
-<li>Run Python statements in JupyterLab</li>
+<h1 id="Meet-Your-Instructor">Meet Your Instructor<a class="anchor-link" href="#Meet-Your-Instructor">&#182;</a></h1><h2 id="Dr.-Christopher-Huntley">Dr. Christopher Huntley<a class="anchor-link" href="#Dr.-Christopher-Huntley">&#182;</a></h2><ul>
+<li>PhD in Systems Engineering (UVa, 1995)</li>
+<li>At Fairfield U since 1997, before that (mostly) in industry</li>
+<li>Shipped software in over a dozen different languages before 30-th birthday</li>
+<li>Also taught BUAN 6500, BUAN 6505, BUAN 6510, and BUAN 6590</li>
 </ul>
 
 </div>
@@ -13224,320 +13223,305 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Python-Programming-Environment">The Python Programming Environment<a class="anchor-link" href="#The-Python-Programming-Environment">&#182;</a></h1><h2 id="A-Tour-with-Examples-in-JupyterLab">A Tour with Examples in JupyterLab<a class="anchor-link" href="#A-Tour-with-Examples-in-JupyterLab">&#182;</a></h2>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-Language-Origins">Python Language Origins<a class="anchor-link" href="#Python-Language-Origins">&#182;</a></h1><ul>
-<li>Python is a high-level <em>scripting</em> language, originally intended for short programs that run from the command line.</li>
-<li>Timeline:<ul>
-<li>1980’s: early development by Guido Van Rossum</li>
-<li>1994: Python 1.0, the first complete release</li>
-<li>2000: Python 2.0 added advanced data types and core object-orientation (‘everything is an object’)</li>
-<li>2008: Python 3.0 broke backwards compatibility to streamline and unify language syntax and libraries</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-2-vs-Python-3">Python 2 vs Python 3<a class="anchor-link" href="#Python-2-vs-Python-3">&#182;</a></h1><ul>
-<li>Plenty of Python libraries (reusable programs) in use today were originally written before 2008<ul>
-<li>While most libraries have updated to Python 3, some remain stuck in Python 2</li>
-</ul>
-</li>
-<li><strong>We will be learning Python 3</strong> in this class<ul>
-<li>However, you may be asked to use Python 2 in some of your future analytics classes and on the job</li>
-<li>Fortunately, the switch is pretty easy once you know what you are doing</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Source-Code,-Compilers,-and-Interpreters">Source Code, Compilers, and Interpreters<a class="anchor-link" href="#Source-Code,-Compilers,-and-Interpreters">&#182;</a></h1><ul>
-<li>Python is a high-level language like C, Java, or C# <ul>
-<li>Written and read by humans as <strong>source code</strong> (scripts or programs)</li>
-<li>Has to be converted into low-level <strong>object code</strong> (not human-readable, like .exe files) that the computer uses natively</li>
-</ul>
-</li>
-<li>Two ways to convert from source code (programs) to object code (machine code):<ul>
-<li><strong>Compilers</strong> (used by C, Java, C#, etc.) convert it all at once, requiring all source code to be written in advance</li>
-<li><strong>Interpreters</strong> convert the code one line at a time, allowing the source code to be written interactively</li>
-</ul>
-</li>
-<li>Python can work <em>either way</em>, compiled in advance (for speed) or interpretted as needed (for flexibility)</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Python-Interpreter-Example">Python Interpreter Example<a class="anchor-link" href="#Python-Interpreter-Example">&#182;</a></h1><ul>
-<li>Most Python programs are executed via interpreter</li>
-<li>JupyterLab supports the interpreter in three ways:<ul>
-<li>Via Terminal session</li>
-<li>Via IPython console</li>
-<li>Via Notebook code cells</li>
-</ul>
-</li>
-<li>Here's an old-school terminal session from in 2006:
-<img src="img/L1_Terminal.png" alt="Terminal Session"></li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="JupyterLab-Terminal-Session">JupyterLab Terminal Session<a class="anchor-link" href="#JupyterLab-Terminal-Session">&#182;</a></h1><ol>
-<li>Fire up JupyterLab if you haven't already.</li>
-<li>In JupyterLab's "Launcher" panel, select "Terminal" in the "Other" menu at the bottom. </li>
-<li>A terminal shell will open on a new tab. <ul>
-<li>On MacOS, the terminal will be <code>bash</code></li>
-<li>On Windows, the terminal is likely to be <code>Command prompt</code></li>
-</ul>
-</li>
-<li>Enter <code>python</code> to get an old-fashioned python interpreter</li>
-<li>Type <div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
-</pre></div>
-and hit return.</li>
-<li>The interpreter will execute the line of code and then return the result.</li>
-</ol>
-
+<h1 id="The-Big-Picture">The Big Picture<a class="anchor-link" href="#The-Big-Picture">&#182;</a></h1><h2 id="Python-and-Analytics">Python and Analytics<a class="anchor-link" href="#Python-and-Analytics">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Terminal1.png" alt="Launching Terminal"></p>
-
+<h1 id="Computers:-Fast-but-Dumb!">Computers: Fast but Dumb!<a class="anchor-link" href="#Computers:-Fast-but-Dumb!">&#182;</a></h1>
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Terminal2.png" alt="Terminal Screenshot"></p>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="JupyterLab-IPython-Console">JupyterLab IPython Console<a class="anchor-link" href="#JupyterLab-IPython-Console">&#182;</a></h1><ol>
-<li>In JupyterLab's "Launcher" panel, select "Python 3" in the "Console" menu. </li>
-<li>An IPython Console will launch in a new tab.</li>
-<li>Type the following into the text box at the bottom of the console.<div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
-</pre></div>
+<ul>
+<li>Can perform millions (even billions or trillions or quadrillions) of calculations per second<ul>
+<li>Compute weather predictions</li>
+<li>Search terabytes of Google indexes</li>
+<li>Simulate a nuclear explosion</li>
+</ul>
 </li>
-<li>Hit <code>Control+Enter</code> (or <code>Control+Return</code>) to execute the code.</li>
-<li>The console will display the code and the result.</li>
-</ol>
+</ul>
 
 </div>
 </div>
-</div></section><section>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Console1.png" alt="Launching Console"></p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Console2.png" alt="Console Screenshot"></p>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="JupyterLab-Notebook">JupyterLab Notebook<a class="anchor-link" href="#JupyterLab-Notebook">&#182;</a></h1><ol>
-<li>In JupyterLab's "Launcher" panel, select "Python 3" in the "Notebook" menu. </li>
-<li>A blank Notebook will appear in a new tab.</li>
-<li>Type the following into the blank code cell.<div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
-</pre></div>
+<ul>
+<li>However, they continue to struggle with things we do every day <ul>
+<li>Process and interpret visual input </li>
+<li>Understand the meaning of human language/behavior</li>
+<li>Determine mood by watching a person’s face</li>
+</ul>
 </li>
-<li>Hit the play button (triangle icon) to execute the code cell.</li>
-<li>The result will display immediately below the cell.</li>
-</ol>
+</ul>
 
 </div>
 </div>
-</div></section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Notebook1.png" alt="Launching Notebook"></p>
+<h1 id="Why-Learn-to-Program">Why Learn to Program<a class="anchor-link" href="#Why-Learn-to-Program">&#182;</a></h1><h2 id="Computers-only-do-what-we-tell-them-to-do">Computers only do what we tell them to do<a class="anchor-link" href="#Computers-only-do-what-we-tell-them-to-do">&#182;</a></h2>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Two-implications-for-business-analysts">Two implications for business analysts<a class="anchor-link" href="#Two-implications-for-business-analysts">&#182;</a></h2><h3 id="1.-Must-communicate-unabiguously-...">1. Must communicate unabiguously ...<a class="anchor-link" href="#1.-Must-communicate-unabiguously-...">&#182;</a></h3><ul>
+<li><strong>what</strong> we need the computer to do</li>
+<li><strong>how</strong> the computer is expected to do it</li>
+<li>(computer does not care about <strong>why</strong>)</li>
+</ul>
 
 </div>
 </div>
-</div></section><section>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Continued">Continued<a class="anchor-link" href="#Continued">&#182;</a></h1><p><img src="img/L1_JupyterLab_Notebook2.png" alt="Launching Notebook"></p>
+<h3 id="2.-Languages-evolve-to-fit-what-we-need">2. Languages evolve to fit what we need<a class="anchor-link" href="#2.-Languages-evolve-to-fit-what-we-need">&#182;</a></h3><ul>
+<li>So <strong>always</strong> be learning something new</li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Why-Python?">Why Python?<a class="anchor-link" href="#Why-Python?">&#182;</a></h1><ul>
+<li><strong>Easy to learn</strong><ul>
+<li>Simple syntax and vocabulary, without a lot of clutter</li>
+<li>Most things have "One obvious way to do it"</li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
 </div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello
-</pre>
-</div>
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><strong>Encourages logical thinking</strong><ul>
+<li>Block structure, with clear visual hierarchy</li>
+<li>Lots of built-in data types, flexible </li>
+<li>"Coding at the speed of thought"</li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><strong>Amazing industry support</strong><ul>
+<li>Lots and lots of free/open source software</li>
+<li>Easy to "glue together" whatever you need</li>
+</ul>
+</li>
+</ul>
 
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="A-Brief-History-Lesson">A Brief History Lesson<a class="anchor-link" href="#A-Brief-History-Lesson">&#182;</a></h1><p><img src="img/L0_fig1_brief_history_lesson.png" alt="Brief history lesson"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Key-Observation">Key Observation<a class="anchor-link" href="#Key-Observation">&#182;</a></h1><p>Until only a few years years ago, professional-level data analytics required mastery of a whole stack of programming languages and systems.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Now, however, one can do pretty much anything with just Python</strong>, which has the best tooling around for analytics!</p>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Excel is fine, but a Jupyter Notebook with live data is much better.</p>
+
+</div>
+</div>
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="What-about-Typos?">What about Typos?<a class="anchor-link" href="#What-about-Typos?">&#182;</a></h1><p>When using the interpreter interactively, we are likely to have typos and other errors.<br>
-For example ...
-The example from 2006 used a Python 2.4 statement</p>
-<div class="highlight"><pre><span></span><span class="nb">print</span> <span class="err">‘</span><span class="n">I</span> <span class="n">love</span> <span class="n">this</span> <span class="n">course</span><span class="err">!’</span>
-</pre></div>
-<p>That doesn't work in Python 3!<br>
-<strong>If the interpreter cannot execute the statement, then it returns an error message.<br>
-Please read these carefully before asking for help.</strong></p>
-
+<h1 id="Course-Expectations">Course Expectations<a class="anchor-link" href="#Course-Expectations">&#182;</a></h1><h2 id="What-does-success-look-like?">What does success look like?<a class="anchor-link" href="#What-does-success-look-like?">&#182;</a></h2>
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Debugging-/-Error-Types">Debugging / Error Types<a class="anchor-link" href="#Debugging-/-Error-Types">&#182;</a></h1><p>Listed in increasing difficulty ...</p>
+<h1 id="Why-are-you-here-again?">Why are you here again?<a class="anchor-link" href="#Why-are-you-here-again?">&#182;</a></h1><p>The goal of this course is not to turn you into a system engineer, but <strong>to provide fundamental programming skills needed for business analytics.</strong>
+<img src="img/L0_fig2_client_analyst_engineer.png" alt="Client Analyst Engineer"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Course-Objectives">Course Objectives<a class="anchor-link" href="#Course-Objectives">&#182;</a></h1><ul>
+<li><strong>Theory: You should understand …</strong><ul>
+<li>Fundamentals of logical reasoning as used in contemporary programming languages</li>
+<li>Basic and advanced data structures needed organize, store, and integrate data</li>
+<li>Syntax, control structures, data types, etc. in the Python language</li>
+<li>Importance of Python as a tool for data science</li>
+</ul>
+</li>
+<li><strong>Practice: You should be able to …</strong><ul>
+<li>Write Python scripts of moderate length and complexity</li>
+<li>Design and use custom data structures using built-in and third-party data types</li>
+<li>Use third-party Python libraries like Pandas and Matplotlib</li>
+<li>Develop proficency with a professional-level data science toolkit (Jupyter, GitHub, etc.)</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="About-the-Workload-...">About the Workload ...<a class="anchor-link" href="#About-the-Workload-...">&#182;</a></h1><p>Things progress <strong>2x the speed of an UG class</strong> and each new thing builds on the last.</p>
 <ul>
-<li><strong>Syntax errors</strong> in the source code are caught by the interpreter or compiler before trying to run it<ul>
-<li>Fix: Look for broken Python statements or typos</li>
+<li><strong>Programming is not a passive activity.</strong><ul>
+<li>Doing the readings and watching the videos is <strong>necessary</strong> but not *<em>sufficient</em></li>
+<li>Most of the <strong>learning happens with hands on the keyboards</strong> after taking in the materials</li>
 </ul>
 </li>
-<li><strong>Runtime errors</strong> happen when the computer tries to run a line of code<ul>
-<li>Fix: Read the error message, which explains what caused the interpreter to break. Often you'll find that some assumption you've made about a resource being available or code being executed in advance are faulty. </li>
-</ul>
-</li>
-<li>Programs with <strong>Semantic errors</strong> (bad logic) run fine but do not produce the expected results<ul>
-<li>Fix: Study the source code for <strong>incorrect logic</strong>. Since your are the source of the logic, the computer has no way to tell that it is faulty, leaving you on your own to locate the bug. </li>
+<li><strong>Don't let yourself get behind.</strong><ul>
+<li>It takes time and repetition for things to sink in. Fast learners should expect to spend at least an hour every day. If that's not you, then <strong>plan to spend 2 hours every day!</strong></li>
 </ul>
 </li>
 </ul>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Code-Comments">Code Comments<a class="anchor-link" href="#Code-Comments">&#182;</a></h1><div class="highlight"><pre><span></span><span class="c1"># Compute the W2H ratio for one person</span>
-</pre></div>
+<h1 id="A-Slight-digression-about-Values">A Slight digression about Values<a class="anchor-link" href="#A-Slight-digression-about-Values">&#182;</a></h1><p><strong>Be sure you know why you are here.</strong></p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Graduate School is a social contract, with a <strong>professional code of conduct</strong> that values …</p>
 <ul>
-<li>Python statements are meant for the computer to execute</li>
-<li>Sometimes we want to include explanatory comments for programmers to read<ul>
-<li>Comments can be <em>especially</em> helpful with semantic errors</li>
-</ul>
-</li>
-<li>Comments always start with the # character<ul>
-<li>Anything on a line after the # is ignored by the interpreter</li>
-</ul>
-</li>
-<li><strong>Comments are considered part of your code!</strong><ul>
-<li>Leaving them out is considered <em>extremely</em> unprofessional (and in most of the companies you've heard of will result in a reprimand or worse). </li>
-</ul>
-</li>
+<li>Integrity over Grades</li>
+<li>Courage over Ego</li>
+<li>Community over Competition</li>
 </ul>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Syntax-Highlighting">Syntax Highlighting<a class="anchor-link" href="#Syntax-Highlighting">&#182;</a></h1><ul>
-<li>Python is very strict about what kinds of statements it can execute</li>
-<li>Every kind of statement has its own <strong>syntax</strong>, a pattern composed of keywords, expressions, and punctuation characters.<ul>
-<li>The syntax of a print statement (in BNF grammar notation) is <div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="o">&lt;</span><span class="n">string</span> <span class="n">expression</span><span class="o">&gt;</span><span class="p">)</span>
-</pre></div>
-</li>
-</ul>
-</li>
-<li><strong>Keywords</strong> like <code>print</code>, <code>if</code>, <code>or</code>, and <code>for</code> are <strong>reserved</strong> and cannot be used for variable names<ul>
-<li>To help you identify reserved words in your code, JupyterLab will highlight them in green.</li>
-</ul>
-</li>
-<li>Pay attention to the color highlighting to see how Python parses out your code. <ul>
-<li>Sometimes color can clue you into typos and other bugs. </li>
-</ul>
-</li>
-<li>Question: Why are <code>&lt;</code> and <code>&gt;</code> in a lighter color in the code snippet above?</li>
-</ul>
+<p><strong>If you can’t abide by our values then please take another course.</strong></p>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Classwork-(Start-here-in-class)">Classwork (Start here in class)<a class="anchor-link" href="#Classwork-(Start-here-in-class)">&#182;</a></h1><ul>
-<li>Complete chapters 1 and 2 of the RSI <em>How to Think Like a Computer Scientist</em> e-book.<ul>
-<li>Do not play the videos without headphones; reading and typing is enough</li>
+<h1 id="...-And-Professionalism">... And Professionalism<a class="anchor-link" href="#...-And-Professionalism">&#182;</a></h1><h3 id="What-does-it-mean-to-be-a-professional?">What does it mean to be a professional?<a class="anchor-link" href="#What-does-it-mean-to-be-a-professional?">&#182;</a></h3><p>Get paid. Duh.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="So-why-do-they-pay-you?">So why do they pay you?<a class="anchor-link" href="#So-why-do-they-pay-you?">&#182;</a></h3><p>To get the job done right!</p>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="What-does-it-take-to-do-things-right?">What does it take to do things right?<a class="anchor-link" href="#What-does-it-take-to-do-things-right?">&#182;</a></h3><p>Knowledge + Skills + Code of conduct</p>
+
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="tl;dr:-Professionalism-is-as-much-how-you-approach-things-as-it-is-getting-the-right-answers.">tl;dr: Professionalism is as much <strong>how you approach things</strong> as it is getting the right answers.<a class="anchor-link" href="#tl;dr:-Professionalism-is-as-much-how-you-approach-things-as-it-is-getting-the-right-answers.">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Speaking-of-Grades">Speaking of Grades<a class="anchor-link" href="#Speaking-of-Grades">&#182;</a></h1><h2 id="How-will-we-know-if-the-course-obectives-are-met?">How will we know if the course obectives are met?<a class="anchor-link" href="#How-will-we-know-if-the-course-obectives-are-met?">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Five-types-of-Assignments">Five types of Assignments<a class="anchor-link" href="#Five-types-of-Assignments">&#182;</a></h1><ul>
+<li><strong>Readings</strong> cover the basic theory with examples</li>
+<li><strong>DataCamp</strong> tutorials provide an oppotunity to learn on your own</li>
+<li><strong>Lessons</strong> build on the readings with even more explanations and hands on exercises</li>
+<li><strong>Quizzes</strong> test your proficiency with the essentila concepts</li>
+<li><strong>The Final Project</strong> integrates it al into an authentic learning experience</li>
 </ul>
-</li>
-<li>If time permits, start in on your homework. </li>
-<li>Ask questions when you need help. Use this time to get help from the professor!</li>
-</ul>
-<h1 id="Homework-(Do-at-home)">Homework (Do at home)<a class="anchor-link" href="#Homework-(Do-at-home)">&#182;</a></h1><p>The following is due before class next week:</p>
+<p>While you are responsible for completing every assignment, <strong>readings, tutorials, and lessons are considered formative, graded for effort rather than outcomes.</strong>. It is enough to simply complete them the best you can. <strong>Quizzes and the final project, on the other hand, will each receive a letter grade that factors directly in your course average.</strong></p>
+<p><strong>For more details see the course syllabus.</strong></p>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Grading-Scale">Grading Scale<a class="anchor-link" href="#Grading-Scale">&#182;</a></h1><p><strong>Every graded assignment will be scored and then normalized</strong> using the following formula:</p>
+<blockquote><p>QP = 3.5 + ½ (x-μ)/σ,</p>
+</blockquote>
+<p>where</p>
 <ul>
-<li>Any remaining classwork from tonight</li>
-<li>RSI Chapters 3 and 4</li>
-<li>Data Camp “Python Basics” assignment</li>
+<li>x is the student’s raw score for the assignment</li>
+<li>μ and σ are the class average and standard deviation for the assignment</li>
+<li>QP is the quality points (~ GPA) used in the course average</li>
 </ul>
-<p>Note: All work on Data Camp is logged. Don't try to fake it!
-Please email chuntley@fairfield.edu if you have any problems or questions.</p>
+<p>Letter grades are then 3.67+ → A, 3.34-3.66 → A-, …</p>
 
 </div>
 </div>
@@ -13545,8 +13529,15 @@ Please email chuntley@fairfield.edu if you have any problems or questions.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/Dolan.jpg" alt="DSB Logo"></p>
-<h1 id="Preliminaries">Preliminaries<a class="anchor-link" href="#Preliminaries">&#182;</a></h1><h2 id="RSI-Chapter-1">RSI Chapter 1<a class="anchor-link" href="#RSI-Chapter-1">&#182;</a></h2><h3 id="Concepts-you-should-know-before-your-first-program">Concepts you should know before your first program<a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h3>
+<h1 id="The-Class-Website">The Class Website<a class="anchor-link" href="#The-Class-Website">&#182;</a></h1><h2 id="https://christopherhuntley.github.io/BUAN5405-docs"><a href="https://christopherhuntley.github.io/BUAN5405-docs">https://christopherhuntley.github.io/BUAN5405-docs</a><a class="anchor-link" href="#https://christopherhuntley.github.io/BUAN5405-docs">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="img/Dolan_wide.png" alt="DSB Logo"></p>
+<h1 id="Course-Introduction">Course Introduction<a class="anchor-link" href="#Course-Introduction">&#182;</a></h1><h3 id="Everything-you-need-to-know-and-do-before-the-first-day-of-class">Everything you need to know and do before the first day of class<a class="anchor-link" href="#Everything-you-need-to-know-and-do-before-the-first-day-of-class">&#182;</a></h3>
 </div>
 </div>
 </div></section></section>

@@ -1,7 +1,9 @@
 <img src="https://github.com/christopherhuntley/BUAN5405-docs/blob/master/Slides/img/Dolan.png?raw=true" style="width:180px; float:right">
 
 # BUAN 5405 
-_Course materials for BUAN 5405 Python Fundamentals_
+_Course materials for BUAN 5405 Python Fundamentals_   
+>View as [GitHub pages](https://christopherhuntley.github.io/BUAN5405-docs/)  
+>View as [GitHub repo](https://github.com/christopherhuntley/BUAN5405-docs)    
  
 ## Contents
  * [Syllabus](Syllabus.md)
@@ -20,7 +22,7 @@ _Course materials for BUAN 5405 Python Fundamentals_
    If you find that this class isn't for you then please consult with Phil Maymin at `pmaymin@fairfield.edu` or Leanne De Los Santos at `ldelossantos@fairfield.edu` to find a better fit for you. 
    
 3. **Sign up for [GitHub](https://github.com) using your `@student.fairfield.edu` email account.** Note: you'll need to use this to ensure you get our academic discount. 
-4. **Fill out this short survey (which will be shared with the class).**
+4. **Fill out [this short survey](https://docs.google.com/forms/d/e/1FAIpQLSchNC-Xs1OlaQ1Bucbf0QcvCwvrjOSasf-2n9JHcrITCddH_g/viewform?usp=sf_link) (which will be shared with the class).**
 5. **Sign up for the Fairfied Dolan Slack Workspace.** 
     * INSTRUCTIONS FROM Phil. 
     * Post an introductory message in the `#buan5405` channel stating i) your name, ii) your academic program (MBA, etc.), and iii) what you hope to get out of this course.  
