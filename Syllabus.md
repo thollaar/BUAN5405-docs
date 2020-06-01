@@ -115,7 +115,7 @@ After scaling, the expected grade distribution is approximately:
 |      | Lesson 7: Files                  | July 20 | July 24  |
 |      | Reading: Py4E Chapter 8          |         | July 26  |
 |      | Lesson 8: Lists                  | July 20 | July 26  |
-|      | **Quiz 3**                           | July 26 | July 27  |
+|      | **_Quiz 3_**                           | July 26 | July 27  |
 | **4**    | **Data Structures (cont.)**      |         |          |
 |      | **_Project Assigned_**               | July 27 |          |
 |      | Reading: Py4E Chapter 9          |         | July 30  |
@@ -123,10 +123,10 @@ After scaling, the expected grade distribution is approximately:
 |      | Reading: Py4E Chapter 10         |         | August 2  |
 |      | Lesson 10: Tuples                | July 27 | August 2 |
 |      | DataCamp: Data Types for Data Science in Python | | August 2|
-|      | **Quiz 4**                           | August 2 | August 3|
+|      | **_Quiz 4_**                           | August 2 | August 3|
 | **5**    | **Advanced Data Structures**     |          |         |
 |      | Lesson 11: Nested Hierarchies    | August 3 | August 5|
-|      | **Quiz 5**                           | August 6 | August 8|
+|      | **_Quiz 5_**                           | August 6 | August 8|
 |      | Lesson 12: pandas DataFrames     | August 3 | August 8|
 |      | DataCamp: pandas Foundations     |          | August 8|
 | **6**    | **Final Project**                |          |         |
