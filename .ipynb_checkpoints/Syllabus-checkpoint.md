@@ -27,13 +27,14 @@ Email: chuntley@fairfield.edu
   * Other times are by appointment only. However, use the class Slack channel for general inquiries.  
 
 ## Resources
-* **Textbook:** Python for Everybody: Exploring Data in Python 3, by Charles R. Severance, available [here](https://www.py4e.com/). The PDF, HTML, ad Kindle versions are free.
+* **Textbook:** Python for Everybody: Exploring Data in Python 3, by Charles R. Severance, available [here](https://www.py4e.com/). The PDF, HTML, and Kindle versions are free.
 * **Online Tutorials:** [Data Camps’s Online Python Courses](https://www.datacamp.com)
 * **Software:** [Google Colab](https://colab.research.google.com/) (programming environment), git/[GitHub](https://github.com/) (source code management), and Google Drive (https://drive.google.com) (collaborative work)
 * **Hardware:** While the software tools are online, you will want a professional-grade laptop or desktop computer with the largest screen and the most RAM you can afford.   
 * **Websites:**  
     * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/buan5405-docs).
-    * Programing assignments are posted and managed in GitHub Classroom and [Data Camp](https://datacamp.com).
+    * Programing assignments are posted and managed in GitHub Classroom.
+    * Class communications will be via Slack at fairfield-dolan.slack.com. 
     * [DataCamp](https://datacamp.com) exercises will be used to complement the class lessons.
     * The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM)
 
@@ -48,41 +49,78 @@ This is a graduate class intended for aspiring *professionals*:
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
-*If you cannot abide by these policies then please take another course. *
+*If you cannot abide by these policies then please take another course.*
 
 ## Assignments and Course Grade
 ### Professionalism (20% of Course Grade)
 Professionals get the job done. As you progress through the course, you will be asked to complete various DataCamp tutorials, challenge exercises, quizzes, and other hands-on work. **Please complete all asignments on time, as specified, using the resources above to the best of your ability.** 
 ### Quizzes (40% of Course Grade)
-There will be five quizzes, with the lowest grade dropped from your quiz average. They will be given on the days shown in the attached schedule of classes. Quizzes are closed book and closed notes. They are designed to last about 25 minutes, though students though you may take longer if needed. **Quizzes will be graded on the dates given below, after which missing submissions will be assigned a score of 0. After the second missed quiz, the maximum class grade is a B-.** 
+There will be five quizzes, with the lowest grade dropped from your quiz average. They will be given on the days shown in the attached schedule of classes. Quizzes are closed book and closed notes. They are designed to last about 25 minutes, though you may take longer if needed. **Quizzes will be graded on the dates given below, after which missing submissions will be assigned a score of 0. After the second missed quiz, the maximum class grade is a B-.** 
 ### Final Project (40% of Course Grade)
 The final project is meant to be a demonstration that the course objectives have been met. Project details and requirements will be distributed in the fourth week of class. **Deliverables are a Jupyter Notebook and a 10 minute structured walkthrough presentation. Class presentations will be submitted via Youtube.** 
+### Grading Scale
+All assignment grades are entered into the gradebook on a GPA scale, where A is 3.67+, A- is 3.34-3.66, etc. The overall course grade is then the weighted average of the grades.
 
-# Dates and Deliverables
+Any assignment that is not scored on a GPA scale will be normalized as follows:  
+    
+    Grade Points = 3.5 + ½(x-μ)/σ,   
+
+where
+- x is the student’s raw score for the assignment
+- μ and σ are the class average and standard deviation for the assignment
+- Note that the average score is always 3.5, which is an A-. 
+
+After scaling, the expected grade distribution is approximately:
+
+| Grade      | GP Range         | Frequency |
+| :--------- | ---------------- | --------- |
+| A          | Above 3.66       | 30%       |
+| A-         | \[3.34, 3.66)    | 40%       |
+| B+         | \[3.0 3.34)      | 24%       |
+| B or lower | Below 3          | 6.5%      ||
+
+
+## Dates and Deliverables
+- [Py4E](https://www.py4e.com) is the textbook.
+- [DataCamp](https://www.py4e.com/) exercises are assigned and tracked online. 
+- Lessons and projects are assigned and tracked via [GitHub Classroom](https://classroom.github.com), with work completed in [Google Colab](https://colab.research.google.com/).
+- Assignments will be graded within two days of the submission deadline.
 
 | Week | Topic/Assignment                 | Release | Deadline |
-|------|----------------------------------|---------|----------|
-| 0    | **Course Onboarding**            | July 1  | July 6   |
+| :--: |----------------------------------|-------: |--------: |
+| 0    | **Course Onboarding**            |         |          |
+|      | Reading: Py4E Chapter 1          |         | July 6   |
+|      | [Getting Started](https://christopherhuntley.github.io/BUAN5405-docs/)                  | July 1  | July 6   |
+|      | Lesson 0: Course Introduction    | July 1  | July 6   |
 | 1    | **Getting Started**              |         |          |
+|      | Reading: Py4E Chapter 2          |         | July 12  |
 |      | Lesson 1: Python Preliminaries   | July 6  | July 12  |
 |      | Lesson 2: Basic Computation      | July 6  | July 12  |
 |      | Datacamp: Introduction to Python |         | July 12  |
 |      | Quiz 1                           | July 12 | July 13  |
 | 2    | **Structured Logic**             |         |          |
+|      | Reading: Py4E Chapter 3          |         | July 16  |
 |      | Lesson 3: Conditional Execution  | July 13 | July 16  |
 |      | Datacamp: Python Lists           |         | July 16  |
+|      | Reading: Py4E Chapter 4          |         | July 18  |
 |      | Lesson 4: Functions              | July 13 | July 18  |
 |      | DataCamp: Functions and Packages |         | July 18  |
+|      | Reading: Py4E Chapter 5          |         | July 19  |
 |      | Lesson 5: Iteration              | July 13 | July 19  |
 |      | Quiz 2                           | July 19 | July 20  |
 | 3    | **Data Structures**              |         |          |
+|      | Reading: Py4E Chapter 6          |         | July 24  |
 |      | Lesson 6: Strings                | July 20 | July 24  |
+|      | Reading: Py4E Chapter 7          |         | July 24  |
 |      | Lesson 7: Files                  | July 20 | July 24  |
+|      | Reading: Py4E Chapter 8          |         | July 26  |
 |      | Lesson 8: Lists                  | July 20 | July 26  |
 |      | Quiz 3                           | July 26 | July 27  |
 | 4    | **Data Structures (cont.)**      |         |          |
 |      | *Project Assigned*               | July 27 |          |
-|      | Lesson 9: Dicts                  | July 27 | July 30 |
+|      | Reading: Py4E Chapter 9          |         | July 30  |
+|      | Lesson 9: Dicts                  | July 27 | July 30  |
+|      | Reading: Py4E Chapter 10         |         | August 2  |
 |      | Lesson 10: Tuples                | July 27 | August 2 |
 |      | DataCamp: Data Types for Data Science in Python | | August 2|
 |      | Quiz 4                           | August 2 | August 3|
@@ -91,7 +129,7 @@ The final project is meant to be a demonstration that the course objectives have
 |      | Quiz 5                           | August 6 | August 8|
 |      | Lesson 12: pandas DataFrames     | August 3 | August 8|
 |      | DataCamp: pandas Foundations     |          | August 8|
-| 6    | **Final Project**                |          |          |
+| 6    | **Final Project**                |          |         |
 |      | Code Submitted via GitHub        |          | August 12|
 |      | Presentation via Youtube         |          | August 14||
 
