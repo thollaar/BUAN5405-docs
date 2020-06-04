@@ -131,6 +131,7 @@ After scaling, the expected grade distribution is approximately:
 |      | DataCamp: pandas Foundations     |          | August 8|
 | **6**    | **Final Project**                |          |         |
 |      | **_Code Submitted via GitHub_**        |          | August 12|
-|      | **_Presentation via Youtube_**         |          | August 14||
+|      | **_Presentation via Youtube_**         |          | August 14|
+
 
 
