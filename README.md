@@ -11,8 +11,7 @@ _Course materials for BUAN 5405 Python Fundamentals_
  * Getting Started (below)
 
 ## Getting Started
-
-1. **Read the syllabus** (above), which covers the learning objectives and student expectations for the class. 
+1. **Read the syllabus** (linked above), which covers the learning objectives and student expectations for the class. 
 2. **Make sure this is the right course for you.**  
    * Have you taken the BUAN 5405 Test Out exam? If you passed then you won't need this course for BUAN 6505. We'd love to have you anyway, but it's your choice. 
    * Want a general "How do I turn on my computer?" class? If so, then you probably don't want this one. 
@@ -20,11 +19,5 @@ _Course materials for BUAN 5405 Python Fundamentals_
    * Wanna learn just enough Python to be dangerous? Then yes, this might be the class for you. 
    
    If you find that this class isn't for you then please consult with Phil Maymin at `pmaymin@fairfield.edu` or Leanne De Los Santos at `ldelossantos@fairfield.edu` to find a better fit for you. 
-   
-3. **Sign up for [GitHub](https://github.com) using your `@student.fairfield.edu` email account.** Note: you'll need to use this to ensure you get our academic discount. 
-4. **Fill out [this short survey](https://docs.google.com/forms/d/e/1FAIpQLSchNC-Xs1OlaQ1Bucbf0QcvCwvrjOSasf-2n9JHcrITCddH_g/viewform?usp=sf_link) (which will be shared with the class).**
-5. **Sign up for the Fairfied Dolan Slack Workspace.** 
-    * INSTRUCTIONS FROM Phil. 
-    * Post an introductory message in the `#buan5405` channel stating i) your name, ii) your academic program (MBA, etc.), and iii) what you hope to get out of this course.  
-6. **Complete Lesson 0 by July 6.**
-    * Open [Lesson 0 in Google Colab](#). Then follow directions given there. 
+3. **Complete [Lesson 0](L0_Course_Onboarding.ipynb) by July 6.**
+    * Follow directions given there to complete the course onboarding process. 
