@@ -77,7 +77,7 @@ After scaling, the expected grade distribution is approximately:
 | A          | Above 3.66       | 30%       |
 | A-         | \[3.34, 3.66)    | 40%       |
 | B+         | \[3.0 3.34)      | 24%       |
-| B or lower | Below 3          | 6.5%      ||
+| B or lower | Below 3          | 6.5%      |
 
 
 ## Dates and Deliverables
