@@ -28,7 +28,7 @@ Email: chuntley@fairfield.edu
 
 ## Resources
 * **Textbook:** Python for Everybody: Exploring Data in Python 3, by Charles R. Severance, available [here](https://www.py4e.com/). The PDF, HTML, and Kindle versions are free.
-* **Online Tutorials:** [Data Camps’s Online Python Courses](https://www.datacamp.com)
+* **Online Tutorials:** [Data Camp’s Online Python Courses](https://www.datacamp.com)
 * **Software:** [Google Colab](https://colab.research.google.com/) (programming environment), git/[GitHub](https://github.com/) (source code management), and Google Drive (https://drive.google.com) (collaborative work)
 * **Hardware:** While the software tools are online, you will want a professional-grade laptop or desktop computer with the largest screen and the most RAM you can afford.   
 * **Websites:**  
@@ -77,7 +77,7 @@ After scaling, the expected grade distribution is approximately:
 | A          | Above 3.66       | 30%       |
 | A-         | \[3.34, 3.66)    | 40%       |
 | B+         | \[3.0 3.34)      | 24%       |
-| B or lower | Below 3          | 6.5%      ||
+| B or lower | Below 3          | 6.5%      |
 
 
 ## Dates and Deliverables
