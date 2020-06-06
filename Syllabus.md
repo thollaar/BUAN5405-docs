@@ -30,7 +30,7 @@ Email: chuntley@fairfield.edu
 * **Textbook:** Python for Everybody: Exploring Data in Python 3, by Charles R. Severance, available [here](https://www.py4e.com/). The PDF, HTML, and Kindle versions are free.
 * **Online Tutorials:** [Data Camp’s Online Python Courses](https://www.datacamp.com)
 * **Software:** [Google Colab](https://colab.research.google.com/) (programming environment), git/[GitHub](https://github.com/) (source code management), and Google Drive (https://drive.google.com) (collaborative work)
-* **Hardware:** While the software tools are online, you will want a professional-grade laptop or desktop computer with the largest screen and the most RAM you can afford.   
+* **Hardware:** While the software tools are online, you will eventiually want a professional-grade laptop. Ask for suggestions if needed.    
 * **Websites:**  
     * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/buan5405-docs).
     * Programing assignments are posted and managed in GitHub Classroom.

@@ -16,7 +16,7 @@ _Course materials for BUAN 5405 Python Fundamentals_
    * Have you taken the BUAN 5405 Test Out exam? If you passed then you won't need this course for BUAN 6505. We'd love to have you anyway, but it's your choice. 
    * Want a general "How do I turn on my computer?" class? If so, then you probably don't want this one. 
    * Looking for a class about building web apps, cloud services, or other interactive systems? This class is geared toward the needs of our MSBA students, who don't have time for such things. They are doing analysis!
-   * Wanna learn just enough Python to be dangerous? Then yes, this might be the class for you. 
+   * Want to learn just enough Python to be dangerous? Then yes, this might be the class for you. 
    
    If you find that this class isn't for you then please consult with Phil Maymin at `pmaymin@fairfield.edu` or Leanne De Los Santos at `ldelossantos@fairfield.edu` to find a better fit for you. 
 3. **Complete Lesson 0 by July 6.**
