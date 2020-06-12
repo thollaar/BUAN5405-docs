@@ -15,7 +15,7 @@ This course is an introduction to Python, with an emphasis on general programmin
 * To write Python scripts of moderate length and complexity
 * To design and use custom data structures using built-in and third-party data types
 * To introduce third-party Python libraries like Pandas and Matplotlib.
-* To develop proficency with a professional-level data science toolkit (Jupyter, GitHub, etc.)
+* To develop proficiency with a professional-level data science toolkit (Jupyter, GitHub, etc.)
 
 ## Instructor
 Christopher L. Huntley  
@@ -30,10 +30,10 @@ Email: chuntley@fairfield.edu
 * **Textbook:** Python for Everybody: Exploring Data in Python 3, by Charles R. Severance, available [here](https://www.py4e.com/). The PDF, HTML, and Kindle versions are free.
 * **Online Tutorials:** [Data Camp’s Online Python Courses](https://www.datacamp.com)
 * **Software:** [Google Colab](https://colab.research.google.com/) (programming environment), git/[GitHub](https://github.com/) (source code management), and Google Drive (https://drive.google.com) (collaborative work)
-* **Hardware:** While the software tools are online, you will eventiually want a professional-grade laptop. Ask for suggestions if needed.    
+* **Hardware:** While the software tools are online, you will eventually want a professional-grade laptop for subsequent analytics courses. Ask for suggestions if needed.    
 * **Websites:**  
     * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/buan5405-docs).
-    * Programing assignments are posted and managed in GitHub Classroom.
+    * Programming assignments are posted and managed in GitHub Classroom.
     * Class communications will be via Slack at fairfield-dolan.slack.com. 
     * [DataCamp](https://datacamp.com) exercises will be used to complement the class lessons.
     * The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM)
@@ -45,7 +45,7 @@ This is a graduate class intended for aspiring *professionals*:
 * **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter. In addition you will have to swear to the following pledge on any graded work: 
   > On my honor as a Fairfield University student, I have neither given nor received any unauthorized aid on this assignment.    
 
-    The pledge is a contract. Failure to comply will result in an F for the course. So, try to avoid even the apearance of misconduct. 
+    The pledge is a contract. Failure to comply will result in an F for the course. So, try to avoid even the appearance of misconduct. 
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
@@ -53,7 +53,7 @@ This is a graduate class intended for aspiring *professionals*:
 
 ## Assignments and Course Grade
 ### Professionalism (20% of Course Grade)
-Professionals get the job done. As you progress through the course, you will be asked to complete various DataCamp tutorials, challenge exercises, quizzes, and other hands-on work. **Please complete all asignments on time, as specified, using the resources above to the best of your ability.** 
+Professionals get the job done. As you progress through the course, you will be asked to complete various DataCamp tutorials, challenge exercises, quizzes, and other hands-on work. **Please complete all assignments on time, as specified, using the resources above to the best of your ability.** 
 ### Quizzes (40% of Course Grade)
 There will be five quizzes, with the lowest grade dropped from your quiz average. They will be given on the days shown in the attached schedule of classes. Quizzes are closed book and closed notes. They are designed to last about 25 minutes, though you may take longer if needed. **Quizzes will be graded on the dates given below, after which missing submissions will be assigned a score of 0. After the second missed quiz, the maximum class grade is a B-.** 
 ### Final Project (40% of Course Grade)
