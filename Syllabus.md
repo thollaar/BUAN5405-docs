@@ -42,12 +42,12 @@ This is a graduate class intended for aspiring *professionals*:
 
 * **Set aside at least 10 hours per week for completing your assignments.** Consider yourself fortunate if you can complete it faster than that, but also make sure that you are not missing something important. Then use the remaining time to study on your own. 
 * **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter. 
-> It is expected that all work done for this class will be in strict compliance with the principles of academic honesty and integrity, as outlined in the Student Catalog. Cheating, plagiarism, copying, or dishonesty of any kind is not acceptable and will result in a zero for the exam or assignment and possible a failing grade for the class, and/or expulsion from the program.
+  > It is expected that all work done for this class will be in strict compliance with the principles of academic honesty and integrity, as outlined in the Student Catalog. Cheating, plagiarism, copying, or dishonesty of any kind is not acceptable and will result in a zero for the exam or assignment and possible a failing grade for the class, and/or expulsion from the program.
 
-  In addition you will have to swear to the following pledge on any graded work: 
+   In addition you will have to swear to the following pledge on any graded work: 
   > On my honor as a Fairfield University student, I have neither given nor received any unauthorized aid on this assignment.    
 
-  The pledge is a contract. Failure to comply will result in an F for the _course_. So, try to avoid even the appearance of misconduct. 
+   The pledge is a contract. Failure to comply will result in an F for the _course_. So, try to avoid even the appearance of misconduct. 
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
