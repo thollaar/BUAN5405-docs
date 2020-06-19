@@ -103,42 +103,42 @@ After scaling, the expected grade distribution is approximately:
 | **0**    | **Course Onboarding**            |         |          |
 |      | Reading: Py4E Chapter 1          |         | July 6   |
 |      | [Getting Started](https://christopherhuntley.github.io/BUAN5405-docs/)                  | July 1  | July 6   |
-|      | Lesson 0: Course Introduction    | July 1  | July 6   |
+|      | Lesson 0: Course Introduction    |         | July 6   |
 | **1**    | **Getting Started**              |         |          |
 |      | Reading: Py4E Chapter 2          |         | July 12  |
-|      | Lesson 1: Python Preliminaries   | July 6  | July 12  |
-|      | Lesson 2: Basic Computation      | July 6  | July 12  |
+|      | Lesson 1: Python Preliminaries   |         | July 12  |
+|      | Lesson 2: Basic Computation      |         | July 12  |
 |      | Datacamp: Introduction to Python |         | July 12  |
 |      | **_Quiz 1_**                           | July 12 | July 13  |
 | **2**    | **Structured Logic**             |         |          |
 |      | Reading: Py4E Chapter 3          |         | July 16  |
-|      | Lesson 3: Conditional Execution  | July 13 | July 16  |
+|      | Lesson 3: Conditional Execution  |         | July 16  |
 |      | Datacamp: Python Lists           |         | July 16  |
 |      | Reading: Py4E Chapter 4          |         | July 18  |
-|      | Lesson 4: Functions              | July 13 | July 18  |
+|      | Lesson 4: Functions              |         | July 18  |
 |      | DataCamp: Functions and Packages |         | July 18  |
 |      | Reading: Py4E Chapter 5          |         | July 19  |
-|      | Lesson 5: Iteration              | July 13 | July 19  |
+|      | Lesson 5: Iteration              |         | July 19  |
 |      | **_Quiz 2_**                           | July 19 | July 20  |
 | **3**    | **Data Structures**              |         |          |
 |      | Reading: Py4E Chapter 6          |         | July 24  |
-|      | Lesson 6: Strings                | July 20 | July 24  |
+|      | Lesson 6: Strings                |         | July 24  |
 |      | Reading: Py4E Chapter 7          |         | July 24  |
-|      | Lesson 7: Files                  | July 20 | July 24  |
+|      | Lesson 7: Files                  |         | July 24  |
 |      | DataCamp: Fundamental data types |         | July 24  |
 |      | Reading: Py4E Chapter 8          |         | July 26  |
-|      | Lesson 8: Lists                  | July 20 | July 26  |
+|      | Lesson 8: Lists                  |         | July 26  |
 |      | **_Quiz 3_**                           | July 26 | July 27  |
 | **4**    | **Data Structures (cont.)**      |         |          |
 |      | Reading: Py4E Chapter 9          |         | July 30  |
 |      | DataCamp: Dictionaries -- the root of Python | | July 30|
-|      | Lesson 9: Dicts                  | July 27 | July 30  |
+|      | Lesson 9: Dicts                  |         | July 30  |
 |      | Reading: Py4E Chapter 10         |         | August 2  |
-|      | Lesson 10: Tuples                | July 27 | August 2 |
+|      | Lesson 10: Tuples                |         | August 2 |
 |      | **_Quiz 4_**                           | August 2 | August 3|
 | **5**    | **Advanced Data Structures**     |          |         |
-|.     | **Final Project Assigned**                   |          | August 4|
-|      | DataCamp: pandas Foundations | | August 5|
+|.     | **Final Project Assigned**                   | August 4 | |
+|      | DataCamp: pandas Foundations |              | August 5|
 |      | Lesson 11: pandas                        | August 3 | August 5|
 |      | **_Quiz 5_**                           | August 6 | August 8|
 |      | Lesson 12: Odds and Ends     | August 3 | August 8|
