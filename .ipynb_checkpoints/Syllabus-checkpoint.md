@@ -3,15 +3,14 @@
 ## Course Description
 This course is an introduction to Python, with an emphasis on general programming concepts (structure, logic, data, etc.) that apply to just about any general purpose programming language.  Starting with a review of fundamental programming concepts, the course uses short lessons, quizzes, and coding challenges to cover the basics of how Python is used in a professional Business Analytics setting. The course concludes with a final project designed to demonstrate proficiency. Prerequisites: graduate standing or permission of the instructor.   
 
-## Learning Objectives
-
-### Theory
+## Desiderata
+### Course Goals / Theory
 * To introduce fundamentals of logical reasoning as used in contemporary programming languages
 * To survey essential data structures needed to organize, store, and integrate data
 * To master syntax, control structures, data types, etc. in the Python programming language
 * To introduce Python as a tool for data science
 
-### Practice
+### Learing Objectives / Practice
 * To write Python scripts of moderate length and complexity
 * To design and use custom data structures using built-in and third-party data types
 * To introduce third-party Python libraries like Pandas and Matplotlib.
@@ -42,14 +41,27 @@ Email: chuntley@fairfield.edu
 This is a graduate class intended for aspiring *professionals*:    
 
 * **Set aside at least 10 hours per week for completing your assignments.** Consider yourself fortunate if you can complete it faster than that, but also make sure that you are not missing something important. Then use the remaining time to study on your own. 
-* **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter. In addition you will have to swear to the following pledge on any graded work: 
+* **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter. 
+> It is expected that all work done for this class will be in strict compliance with the principles of academic honesty and integrity, as outlined in the Student Catalog. Cheating, plagiarism, copying, or dishonesty of any kind is not acceptable and will result in a zero for the exam or assignment and possible a failing grade for the class, and/or expulsion from the program.
+
+  In addition you will have to swear to the following pledge on any graded work: 
   > On my honor as a Fairfield University student, I have neither given nor received any unauthorized aid on this assignment.    
 
-    The pledge is a contract. Failure to comply will result in an F for the course. So, try to avoid even the appearance of misconduct. 
+    The pledge is a contract. Failure to comply will result in an F for the _course_. So, try to avoid even the appearance of misconduct. 
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
 *If you cannot abide by these policies then please take another course.*
+
+### Add / Drop Policy
+>Students are responsible for understanding the policies and procedures about add/drops, academic renewal, etc. found in the [Fairfield University Catalog](http://catalog.fairfield.edu/graduate/overview/academic-policies-general-regulations/). You should be aware of the new deadlines and penalties for adding and dropping classes.
+
+### ADA Policy
+>Fairfield University is committed to achieving equal educational opportunities and providing students who have documented disabilities equal access to all University programs, services and activities. For this course to be accessible to all students, different accommodations or adjustments may need to be implemented. If you require accommodations for this course because of a disability, please contact the Office of Accessibility as early as possible this semester as they are the designated department on campus responsible for approving and coordinating reasonable accommodations for students with disabilities. Accessibility will help you understand your rights and responsibilities under the American with Disabilities Act and Section 504 of the Rehabilitation Act and will provide you further assistance with requesting and arranging accommodations for your courses. Once you receive your accommodations letter, please make an appointment to meet with me as soon as possible so that we can review your accommodations together and discuss how best to help you achieve equal access in this course this semester.
+*Office of Accessibility, Library, 203-254-4081 (tel:2032544081), ooa@fairfield.edu*
+
+## Religious Holidays
+> As indicated by Fairfield University’s policy, any student missing classes or other assigned work due to religious holiday observances shall have the opportunity to make up that work during the term. It is the student’s responsibility to notify the instructor in writing at least two weeks prior to any observed holiday.
 
 ## Assignments and Course Grade
 ### Professionalism (20% of Course Grade)
