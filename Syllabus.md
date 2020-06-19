@@ -47,7 +47,7 @@ This is a graduate class intended for aspiring *professionals*:
   In addition you will have to swear to the following pledge on any graded work: 
   > On my honor as a Fairfield University student, I have neither given nor received any unauthorized aid on this assignment.    
 
-    The pledge is a contract. Failure to comply will result in an F for the _course_. So, try to avoid even the appearance of misconduct. 
+  The pledge is a contract. Failure to comply will result in an F for the _course_. So, try to avoid even the appearance of misconduct. 
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
