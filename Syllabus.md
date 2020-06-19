@@ -142,7 +142,7 @@ After scaling, the expected grade distribution is approximately:
 |      | Lesson 11: pandas                        | August 3 | August 5|
 |      | **_Quiz 5_**                           | August 6 | August 8|
 |      | Lesson 12: Odds and Ends     | August 3 | August 8|
-|      | DataCamp:  Meet the collections Mcodule    |          | August 8|
+|      | DataCamp:  Meet the collections Module    |          | August 8|
 |      | DataCamp:  Handling Dates and Times    |          | August 8|
 | **6**    | **Final Project**                |          |         |
 |      | **_Code Submitted via GitHub_**        |          | August 12|
