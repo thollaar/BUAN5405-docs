@@ -139,7 +139,7 @@ After scaling, the expected grade distribution is approximately:
 | **5**    | **Advanced Data Structures**     |          |         |
 |      | **Final Project Assigned**                   | August 4 | |
 |      | DataCamp: pandas Foundations |              | August 5|
-|      | Lesson 11: pandas                        |  | August 5|
+|      | Lesson 11: pandas   Series and DataFrames   |  | August 5|
 |      | **_Quiz 5_**                           | August 6 | August 8|
 |      | DataCamp:  Meet the collections Module    |          | August 8|
 |      | DataCamp:  Handling Dates and Times    |          | August 8|
