@@ -125,22 +125,25 @@ After scaling, the expected grade distribution is approximately:
 |      | Lesson 6: Strings                | July 20 | July 24  |
 |      | Reading: Py4E Chapter 7          |         | July 24  |
 |      | Lesson 7: Files                  | July 20 | July 24  |
+|      | DataCamp: Fundamental data types |         | July 24  |
 |      | Reading: Py4E Chapter 8          |         | July 26  |
 |      | Lesson 8: Lists                  | July 20 | July 26  |
 |      | **_Quiz 3_**                           | July 26 | July 27  |
 | **4**    | **Data Structures (cont.)**      |         |          |
 |      | **_Project Assigned_**               | July 27 |          |
 |      | Reading: Py4E Chapter 9          |         | July 30  |
+|      | DataCamp: Dictionaries -- the root of Python | | July 30|
 |      | Lesson 9: Dicts                  | July 27 | July 30  |
 |      | Reading: Py4E Chapter 10         |         | August 2  |
 |      | Lesson 10: Tuples                | July 27 | August 2 |
-|      | DataCamp: Data Types for Data Science in Python | | August 2|
 |      | **_Quiz 4_**                           | August 2 | August 3|
 | **5**    | **Advanced Data Structures**     |          |         |
-|      | Lesson 11: Nested Hierarchies    | August 3 | August 5|
+|      | DataCamp: pandas Foundations | | August 2|
+|      | Lesson 11: pandas                        | August 3 | August 5|
 |      | **_Quiz 5_**                           | August 6 | August 8|
-|      | Lesson 12: pandas DataFrames     | August 3 | August 8|
-|      | DataCamp: pandas Foundations     |          | August 8|
+|      | Lesson 12: Odds and Ends     | August 3 | August 8|
+|      | DataCamp:  Meet the collections Mcodule    |          | August 8|
+|      | DataCamp:  Handling Dates and Times    |          | August 8|
 | **6**    | **Final Project**                |          |         |
 |      | **_Code Submitted via GitHub_**        |          | August 12|
 |      | **_Presentation via Youtube_**         |          | August 14|
