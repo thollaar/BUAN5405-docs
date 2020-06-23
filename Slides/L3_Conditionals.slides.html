@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>L1_Python_Preliminaries slides</title>
+<title>L3_Conditionals slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13202,15 +13202,14 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Lesson-1:-Python-Preliminaries">Lesson 1: Python Preliminaries<a class="anchor-link" href="#Lesson-1:-Python-Preliminaries">&#182;</a></h1><h2 id="Concepts-you-should-know-before-your-first-program"><em>Concepts you should know before your first program</em><a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h2>
+<h1 id="Lesson-3:-Conditionals">Lesson 3: Conditionals<a class="anchor-link" href="#Lesson-3:-Conditionals">&#182;</a></h1><h2 id="The-many-forms-of-&quot;it-depends&quot;"><em>The many forms of "it depends"</em><a class="anchor-link" href="#The-many-forms-of-&quot;it-depends&quot;">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Art-of-Programming">The Art of Programming<a class="anchor-link" href="#The-Art-of-Programming">&#182;</a></h1><blockquote><p>"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."</p>
-<p>-- Fred Brooks, <em>The Mythical Man Month</em></p>
+<h1 id="Structured-Programming">Structured Programming<a class="anchor-link" href="#Structured-Programming">&#182;</a></h1><blockquote><p>“Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.” -- Edsger Dijkstra</p>
 </blockquote>
 
 </div>
@@ -13219,7 +13218,13 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/L1_fig1_comp_arch.png" alt="computer architecture"></p>
+<h1 id="The-Mother-of-All-Demos">The Mother of All Demos<a class="anchor-link" href="#The-Mother-of-All-Demos">&#182;</a></h1>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 
 </div>
 </div>
@@ -13227,35 +13232,49 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Why-do-we-care-about-that?">Why do we care about that?<a class="anchor-link" href="#Why-do-we-care-about-that?">&#182;</a></h1>
+<h1 id="These-existed-in-1968?">These existed in <em>1968</em>?<a class="anchor-link" href="#These-existed-in-1968?">&#182;</a></h1><h3 id="Graphical-user-interface-with-a-mouse,-windows,-and-hyperlinks">Graphical user interface with a mouse, windows, and hyperlinks<a class="anchor-link" href="#Graphical-user-interface-with-a-mouse,-windows,-and-hyperlinks">&#182;</a></h3><h3 id="The-Internet-(20-years-before-it-was-called-that)">The Internet (20 years before it was called that)<a class="anchor-link" href="#The-Internet-(20-years-before-it-was-called-that)">&#182;</a></h3><h3 id="Collaborative-editing-over-a-network">Collaborative editing over a network<a class="anchor-link" href="#Collaborative-editing-over-a-network">&#182;</a></h3><h3 id="Version-control">Version control<a class="anchor-link" href="#Version-control">&#182;</a></h3>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Four-Elements-of-All-Programming-Logic">Four Elements of All Programming Logic<a class="anchor-link" href="#Four-Elements-of-All-Programming-Logic">&#182;</a></h1>
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Coding-is-like-a-life-skill:-it-requires-study-and-practice.">Coding is like a life skill: it requires study and practice.<a class="anchor-link" href="#Coding-is-like-a-life-skill:-it-requires-study-and-practice.">&#182;</a></h3>
+<h3 id="blocks-of-statements-to-be-executed-one-after-another"><em>blocks</em> of statements to be executed one after another<a class="anchor-link" href="#blocks-of-statements-to-be-executed-one-after-another">&#182;</a></h3>
 </div>
 </div>
 </div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Practice-alone-does-not-make-a-winner-...">Practice alone does not make a winner ...<a class="anchor-link" href="#Practice-alone-does-not-make-a-winner-...">&#182;</a></h3>
+<h3 id="conditionals-that-select-what-happens-next"><em>conditionals</em> that select what happens next<a class="anchor-link" href="#conditionals-that-select-what-happens-next">&#182;</a></h3>
 </div>
 </div>
 </div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it."><em>Good practice</em>, with mind and body fully engaged, is how winners do it.<a class="anchor-link" href="#Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it.">&#182;</a></h3>
+<h3 id="loops-that-execute-blocks-over-and-over-again"><em>loops</em> that execute blocks over and over again<a class="anchor-link" href="#loops-that-execute-blocks-over-and-over-again">&#182;</a></h3>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="subroutines-that-make-blocks-reusable"><em>subroutines</em> that make blocks reusable<a class="anchor-link" href="#subroutines-that-make-blocks-reusable">&#182;</a></h3>
 </div>
 </div>
 </div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h2 id="Lesson-1:-language-and-environment"><strong>Lesson 1: language and environment</strong><a class="anchor-link" href="#Lesson-1:-language-and-environment">&#182;</a></h2><h3 id="Lesson-2:-values,-variables,-and-expressions">Lesson 2: values, variables, and expressions<a class="anchor-link" href="#Lesson-2:-values,-variables,-and-expressions">&#182;</a></h3><h4 id="Lessons-3-5:-programming-logic">Lessons 3-5: programming logic<a class="anchor-link" href="#Lessons-3-5:-programming-logic">&#182;</a></h4><h4 id="Lessons-6-10:-data-structures">Lessons 6-10: data structures<a class="anchor-link" href="#Lessons-6-10:-data-structures">&#182;</a></h4><h4 id="Lessons-11-12:-advanced-topics">Lessons 11-12: advanced topics<a class="anchor-link" href="#Lessons-11-12:-advanced-topics">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
+<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h4 id="Lesson-1:-preliminaries">Lesson 1: preliminaries<a class="anchor-link" href="#Lesson-1:-preliminaries">&#182;</a></h4><h3 id="Lesson-2:-statements-and-blocks">Lesson 2: statements and blocks<a class="anchor-link" href="#Lesson-2:-statements-and-blocks">&#182;</a></h3><h2 id="Lesson-3:-conditionals"><strong>Lesson 3: conditionals</strong><a class="anchor-link" href="#Lesson-3:-conditionals">&#182;</a></h2><h3 id="Lesson-4:-functions">Lesson 4: functions<a class="anchor-link" href="#Lesson-4:-functions">&#182;</a></h3><h3 id="Lesson-5:-iteration">Lesson 5: iteration<a class="anchor-link" href="#Lesson-5:-iteration">&#182;</a></h3><h4 id="Lessons-6-10:-data-structures">Lessons 6-10: data structures<a class="anchor-link" href="#Lessons-6-10:-data-structures">&#182;</a></h4><h4 id="Lessons-11-12:-advanced-topics">Lessons 11-12: advanced topics<a class="anchor-link" href="#Lessons-11-12:-advanced-topics">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
 </div>
 </div>
 </div></section></section>

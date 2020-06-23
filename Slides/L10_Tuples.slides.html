@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>L1_Python_Preliminaries slides</title>
+<title>L10_Tuples slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13202,15 +13202,17 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Lesson-1:-Python-Preliminaries">Lesson 1: Python Preliminaries<a class="anchor-link" href="#Lesson-1:-Python-Preliminaries">&#182;</a></h1><h2 id="Concepts-you-should-know-before-your-first-program"><em>Concepts you should know before your first program</em><a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h2>
+<h1 id="Lesson-10:-Tuples">Lesson 10: Tuples<a class="anchor-link" href="#Lesson-10:-Tuples">&#182;</a></h1><h2 id="The-label-maker-of-Python-data-types"><em>The label maker of Python data types</em><a class="anchor-link" href="#The-label-maker-of-Python-data-types">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Art-of-Programming">The Art of Programming<a class="anchor-link" href="#The-Art-of-Programming">&#182;</a></h1><blockquote><p>"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."</p>
-<p>-- Fred Brooks, <em>The Mythical Man Month</em></p>
+<h1 id="Why-Immutable-Collections?">Why Immutable Collections?<a class="anchor-link" href="#Why-Immutable-Collections?">&#182;</a></h1><blockquote><p>"Truth is necessary and immutable."<br>
+-- Étienne Gilson</p>
+<p>"Beauty is truth, truth beauty."<br>
+--John Keats, <em>Ode on a Grecian Urn</em></p>
 </blockquote>
 
 </div>
@@ -13219,43 +13221,14 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/L1_fig1_comp_arch.png" alt="computer architecture"></p>
-
+<h1 id="Tuples-don't-do-anything.">Tuples don't <em>do</em> anything.<a class="anchor-link" href="#Tuples-don't-do-anything.">&#182;</a></h1><h3 id="Can't-make-combine-or-splice">Can't make combine or splice<a class="anchor-link" href="#Can't-make-combine-or-splice">&#182;</a></h3><h3 id="Can't-modify-values">Can't modify values<a class="anchor-link" href="#Can't-modify-values">&#182;</a></h3><h3 id="Just-create-literals-...-use-them-somehow">Just create literals ... use them somehow<a class="anchor-link" href="#Just-create-literals-...-use-them-somehow">&#182;</a></h3>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Why-do-we-care-about-that?">Why do we care about that?<a class="anchor-link" href="#Why-do-we-care-about-that?">&#182;</a></h1>
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Coding-is-like-a-life-skill:-it-requires-study-and-practice.">Coding is like a life skill: it requires study and practice.<a class="anchor-link" href="#Coding-is-like-a-life-skill:-it-requires-study-and-practice.">&#182;</a></h3>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Practice-alone-does-not-make-a-winner-...">Practice alone does not make a winner ...<a class="anchor-link" href="#Practice-alone-does-not-make-a-winner-...">&#182;</a></h3>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it."><em>Good practice</em>, with mind and body fully engaged, is how winners do it.<a class="anchor-link" href="#Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it.">&#182;</a></h3>
-</div>
-</div>
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h2 id="Lesson-1:-language-and-environment"><strong>Lesson 1: language and environment</strong><a class="anchor-link" href="#Lesson-1:-language-and-environment">&#182;</a></h2><h3 id="Lesson-2:-values,-variables,-and-expressions">Lesson 2: values, variables, and expressions<a class="anchor-link" href="#Lesson-2:-values,-variables,-and-expressions">&#182;</a></h3><h4 id="Lessons-3-5:-programming-logic">Lessons 3-5: programming logic<a class="anchor-link" href="#Lessons-3-5:-programming-logic">&#182;</a></h4><h4 id="Lessons-6-10:-data-structures">Lessons 6-10: data structures<a class="anchor-link" href="#Lessons-6-10:-data-structures">&#182;</a></h4><h4 id="Lessons-11-12:-advanced-topics">Lessons 11-12: advanced topics<a class="anchor-link" href="#Lessons-11-12:-advanced-topics">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
+<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h4 id="Lessons-1-5:-basics-&amp;-logic">Lessons 1-5: basics &amp; logic<a class="anchor-link" href="#Lessons-1-5:-basics-&amp;-logic">&#182;</a></h4><h4 id="Lesson-6-9:-strings,-files,-lists,-dictionaries">Lesson 6-9: strings, files, lists, dictionaries<a class="anchor-link" href="#Lesson-6-9:-strings,-files,-lists,-dictionaries">&#182;</a></h4><h2 id="Lesson-10:-tuples"><strong>Lesson 10: tuples</strong><a class="anchor-link" href="#Lesson-10:-tuples">&#182;</a></h2><h3 id="Lesson-11:-pandas-DataFrames">Lesson 11: pandas DataFrames<a class="anchor-link" href="#Lesson-11:-pandas-DataFrames">&#182;</a></h3><h4 id="Lesson-12:-web-and-time">Lesson 12: web and time<a class="anchor-link" href="#Lesson-12:-web-and-time">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
 </div>
 </div>
 </div></section></section>

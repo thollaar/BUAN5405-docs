@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>L1_Python_Preliminaries slides</title>
+<title>L8_Lists slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13202,15 +13202,15 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Lesson-1:-Python-Preliminaries">Lesson 1: Python Preliminaries<a class="anchor-link" href="#Lesson-1:-Python-Preliminaries">&#182;</a></h1><h2 id="Concepts-you-should-know-before-your-first-program"><em>Concepts you should know before your first program</em><a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h2>
+<h1 id="Lesson-8:-Lists">Lesson 8: Lists<a class="anchor-link" href="#Lesson-8:-Lists">&#182;</a></h1><h2 id="If-you-can-only-have-one-collection-type,-make-it-a-list"><em>If you can only have one collection type, make it a list</em><a class="anchor-link" href="#If-you-can-only-have-one-collection-type,-make-it-a-list">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Art-of-Programming">The Art of Programming<a class="anchor-link" href="#The-Art-of-Programming">&#182;</a></h1><blockquote><p>"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."</p>
-<p>-- Fred Brooks, <em>The Mythical Man Month</em></p>
+<h1 id="C-Arrays:-A-Lingering-Legacy">C Arrays: A Lingering Legacy<a class="anchor-link" href="#C-Arrays:-A-Lingering-Legacy">&#182;</a></h1><blockquote><p>"Real Programmers write in FORTRAN."<br>
+-- <em>the Story of Mel</em> from <em>The Cathedral and the Bazaar</em></p>
 </blockquote>
 
 </div>
@@ -13219,7 +13219,22 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/L1_fig1_comp_arch.png" alt="computer architecture"></p>
+<h1 id="C-is-the-muscle-car-of-programming-languages.">C is the muscle car of programming languages.<a class="anchor-link" href="#C-is-the-muscle-car-of-programming-languages.">&#182;</a></h1><h3 id="As-close-as-you'd-ever-want-to-get-to-assembly-language">As close as you'd ever want to get to assembly language<a class="anchor-link" href="#As-close-as-you'd-ever-want-to-get-to-assembly-language">&#182;</a></h3><h3 id="Super-fast-and-without-any-pesky-rules-getting-in-the-way">Super fast and without any pesky rules getting in the way<a class="anchor-link" href="#Super-fast-and-without-any-pesky-rules-getting-in-the-way">&#182;</a></h3>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="kt">float</span> <span class="o">*</span><span class="nf">vector</span><span class="p">(</span><span class="n">nl</span><span class="p">,</span><span class="n">nh</span><span class="p">)</span>
+<span class="kt">int</span> <span class="n">nl</span><span class="p">,</span> <span class="n">nh</span><span class="p">;</span>
+<span class="n">Allocates</span> <span class="n">a</span> <span class="kt">float</span> <span class="n">Vector</span> <span class="n">with</span> <span class="n">range</span> <span class="p">[</span><span class="n">n1</span><span class="p">..</span><span class="n">nh</span><span class="p">]</span> 
+<span class="p">{</span>
+    <span class="n">v</span><span class="o">=</span><span class="p">(</span><span class="kt">float</span> <span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">((</span><span class="kt">unsigned</span><span class="p">)</span> <span class="p">(</span><span class="n">nh</span><span class="o">-</span><span class="n">nl</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">float</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">((</span><span class="o">!</span><span class="n">v</span><span class="p">)</span> <span class="n">nerror</span><span class="p">(</span><span class="s">&quot;allocation failure in vector()&quot;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">v</span><span class="o">-</span><span class="n">nl</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
 
 </div>
 </div>
@@ -13227,35 +13242,21 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Why-do-we-care-about-that?">Why do we care about that?<a class="anchor-link" href="#Why-do-we-care-about-that?">&#182;</a></h1>
+<h1 id="The-Scary-Part-...">The Scary Part ...<a class="anchor-link" href="#The-Scary-Part-...">&#182;</a></h1><h3 id="Set-aside-memory-and-really-hope-it's-enough">Set aside memory and <em>really</em> hope it's enough<a class="anchor-link" href="#Set-aside-memory-and-really-hope-it's-enough">&#182;</a></h3><h3 id="Major-security-bugs-and-crashes">Major security bugs and crashes<a class="anchor-link" href="#Major-security-bugs-and-crashes">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Coding-is-like-a-life-skill:-it-requires-study-and-practice.">Coding is like a life skill: it requires study and practice.<a class="anchor-link" href="#Coding-is-like-a-life-skill:-it-requires-study-and-practice.">&#182;</a></h3>
+<h1 id="Python-Lists-are-the-smart,-lazy,-and-SAFE-way-to-go.">Python Lists are the smart, lazy, and <strong><em>SAFE</em></strong> way to go.<a class="anchor-link" href="#Python-Lists-are-the-smart,-lazy,-and-SAFE-way-to-go.">&#182;</a></h1><h3 id="Lists-can-be-any-size">Lists can be any size<a class="anchor-link" href="#Lists-can-be-any-size">&#182;</a></h3><h3 id="Lists-can-contain-data-of-any-type">Lists can contain data of any type<a class="anchor-link" href="#Lists-can-contain-data-of-any-type">&#182;</a></h3><h3 id="Lists-can-be-extended,-sliced,-and-truncated-easily">Lists can be extended, sliced, and truncated easily<a class="anchor-link" href="#Lists-can-be-extended,-sliced,-and-truncated-easily">&#182;</a></h3>
 </div>
 </div>
-</div></div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Practice-alone-does-not-make-a-winner-...">Practice alone does not make a winner ...<a class="anchor-link" href="#Practice-alone-does-not-make-a-winner-...">&#182;</a></h3>
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it."><em>Good practice</em>, with mind and body fully engaged, is how winners do it.<a class="anchor-link" href="#Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it.">&#182;</a></h3>
-</div>
-</div>
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h2 id="Lesson-1:-language-and-environment"><strong>Lesson 1: language and environment</strong><a class="anchor-link" href="#Lesson-1:-language-and-environment">&#182;</a></h2><h3 id="Lesson-2:-values,-variables,-and-expressions">Lesson 2: values, variables, and expressions<a class="anchor-link" href="#Lesson-2:-values,-variables,-and-expressions">&#182;</a></h3><h4 id="Lessons-3-5:-programming-logic">Lessons 3-5: programming logic<a class="anchor-link" href="#Lessons-3-5:-programming-logic">&#182;</a></h4><h4 id="Lessons-6-10:-data-structures">Lessons 6-10: data structures<a class="anchor-link" href="#Lessons-6-10:-data-structures">&#182;</a></h4><h4 id="Lessons-11-12:-advanced-topics">Lessons 11-12: advanced topics<a class="anchor-link" href="#Lessons-11-12:-advanced-topics">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
+<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h4 id="Lessons-1-5:-basics-&amp;-logic">Lessons 1-5: basics &amp; logic<a class="anchor-link" href="#Lessons-1-5:-basics-&amp;-logic">&#182;</a></h4><h4 id="Lesson-6-7:-strings-&amp;-files">Lesson 6-7: strings &amp; files<a class="anchor-link" href="#Lesson-6-7:-strings-&amp;-files">&#182;</a></h4><h2 id="Lesson-8:-lists"><strong>Lesson 8: lists</strong><a class="anchor-link" href="#Lesson-8:-lists">&#182;</a></h2><h3 id="Lesson-9:-dictionaries">Lesson 9: dictionaries<a class="anchor-link" href="#Lesson-9:-dictionaries">&#182;</a></h3><h4 id="Lesson-10:-tuples">Lesson 10: tuples<a class="anchor-link" href="#Lesson-10:-tuples">&#182;</a></h4><h4 id="Lessons-11-12:-advanced-topics">Lessons 11-12: advanced topics<a class="anchor-link" href="#Lessons-11-12:-advanced-topics">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
 </div>
 </div>
 </div></section></section>

@@ -28,6 +28,10 @@
     color:red;
 }
 
+.reveal h1.centered {
+    text-align: center
+}
+
 /*********************************************
  * Figures
  *********************************************/
@@ -44,4 +48,8 @@
     position:fixed;
     top:50px;
     right:50px;
+}
+
+.h2_text {
+    
 }

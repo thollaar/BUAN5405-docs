@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>L1_Python_Preliminaries slides</title>
+<title>L6_Strings slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13202,15 +13202,15 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Lesson-1:-Python-Preliminaries">Lesson 1: Python Preliminaries<a class="anchor-link" href="#Lesson-1:-Python-Preliminaries">&#182;</a></h1><h2 id="Concepts-you-should-know-before-your-first-program"><em>Concepts you should know before your first program</em><a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h2>
+<h1 id="Lesson-6:-Strings">Lesson 6: Strings<a class="anchor-link" href="#Lesson-6:-Strings">&#182;</a></h1><h2 id="The-first-sequential-data-type"><em>The first sequential data type</em><a class="anchor-link" href="#The-first-sequential-data-type">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Art-of-Programming">The Art of Programming<a class="anchor-link" href="#The-Art-of-Programming">&#182;</a></h1><blockquote><p>"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."</p>
-<p>-- Fred Brooks, <em>The Mythical Man Month</em></p>
+<h1 id="The-Type-Hierarchy">The Type Hierarchy<a class="anchor-link" href="#The-Type-Hierarchy">&#182;</a></h1><blockquote><p>"There are 10 kinds of people in this world, those who know binary and those who don't."<br>
+-- anonymous nerd lore</p>
 </blockquote>
 
 </div>
@@ -13219,7 +13219,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/L1_fig1_comp_arch.png" alt="computer architecture"></p>
+<h1 class="centered">Binary</h1><p><img src="img/L6_1_Type_Hierarchy.png" alt="binary"></p>
 
 </div>
 </div>
@@ -13227,35 +13227,52 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Why-do-we-care-about-that?">Why do we care about that?<a class="anchor-link" href="#Why-do-we-care-about-that?">&#182;</a></h1>
+<p><h1 class="centered">Bytes / Characters</h1>
+<img src="img/L6_2_Type_Hierarchy.png" alt="bytes"></p>
+
 </div>
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Coding-is-like-a-life-skill:-it-requires-study-and-practice.">Coding is like a life skill: it requires study and practice.<a class="anchor-link" href="#Coding-is-like-a-life-skill:-it-requires-study-and-practice.">&#182;</a></h3>
+<p><h1 class="centered">Primative Data Types</h1>
+<img src="img/L6_3_Type_Hierarchy.png" alt="primative types"></p>
+
 </div>
 </div>
-</div></div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Practice-alone-does-not-make-a-winner-...">Practice alone does not make a winner ...<a class="anchor-link" href="#Practice-alone-does-not-make-a-winner-...">&#182;</a></h3>
+<p><h1 class="centered">Objects</h1>
+<img src="img/L6_4_Type_Hierarchy.png" alt="objects"></p>
+
 </div>
 </div>
-</div></div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it."><em>Good practice</em>, with mind and body fully engaged, is how winners do it.<a class="anchor-link" href="#Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it.">&#182;</a></h3>
+<p><h1 class="centered">Abstract Types</h1>
+<img src="img/L6_5_Type_Hierarchy.png" alt="abstract types"></p>
+
 </div>
 </div>
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h2 id="Lesson-1:-language-and-environment"><strong>Lesson 1: language and environment</strong><a class="anchor-link" href="#Lesson-1:-language-and-environment">&#182;</a></h2><h3 id="Lesson-2:-values,-variables,-and-expressions">Lesson 2: values, variables, and expressions<a class="anchor-link" href="#Lesson-2:-values,-variables,-and-expressions">&#182;</a></h3><h4 id="Lessons-3-5:-programming-logic">Lessons 3-5: programming logic<a class="anchor-link" href="#Lessons-3-5:-programming-logic">&#182;</a></h4><h4 id="Lessons-6-10:-data-structures">Lessons 6-10: data structures<a class="anchor-link" href="#Lessons-6-10:-data-structures">&#182;</a></h4><h4 id="Lessons-11-12:-advanced-topics">Lessons 11-12: advanced topics<a class="anchor-link" href="#Lessons-11-12:-advanced-topics">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
+<p><h1 class="centered">Python Data Types</h1>
+<img src="img/L6_6_Type_Hierarchy.png" alt="python"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h2 id="Lesson-6:-strings">Lesson 6: strings<a class="anchor-link" href="#Lesson-6:-strings">&#182;</a></h2><h3 id="Lesson-7:-files">Lesson 7: files<a class="anchor-link" href="#Lesson-7:-files">&#182;</a></h3><h3 id="Lesson-8:-lists">Lesson 8: lists<a class="anchor-link" href="#Lesson-8:-lists">&#182;</a></h3><h3 id="Lesson-9:-dictionaries">Lesson 9: dictionaries<a class="anchor-link" href="#Lesson-9:-dictionaries">&#182;</a></h3><h3 id="Lesson-10:-tuples">Lesson 10: tuples<a class="anchor-link" href="#Lesson-10:-tuples">&#182;</a></h3>
 </div>
 </div>
 </div></section></section>

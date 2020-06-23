@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>L1_Python_Preliminaries slides</title>
+<title>L11_DataFrames slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13202,15 +13202,14 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Lesson-1:-Python-Preliminaries">Lesson 1: Python Preliminaries<a class="anchor-link" href="#Lesson-1:-Python-Preliminaries">&#182;</a></h1><h2 id="Concepts-you-should-know-before-your-first-program"><em>Concepts you should know before your first program</em><a class="anchor-link" href="#Concepts-you-should-know-before-your-first-program">&#182;</a></h2>
+<h1 id="Lesson-11:-DataFrames">Lesson 11: DataFrames<a class="anchor-link" href="#Lesson-11:-DataFrames">&#182;</a></h1><h2 id="The-Swiss-Army-Knife-of-Data-Science"><em>The Swiss Army Knife of Data Science</em><a class="anchor-link" href="#The-Swiss-Army-Knife-of-Data-Science">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-Art-of-Programming">The Art of Programming<a class="anchor-link" href="#The-Art-of-Programming">&#182;</a></h1><blockquote><p>"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."</p>
-<p>-- Fred Brooks, <em>The Mythical Man Month</em></p>
+<h1 id="Datasets,-Data-Tables,-and-DataFrames-...">Datasets, Data Tables, and DataFrames ...<a class="anchor-link" href="#Datasets,-Data-Tables,-and-DataFrames-...">&#182;</a></h1><blockquote><p>"A rose by any other name would smell as sweet" -- <em>Romeo and Juliet</em></p>
 </blockquote>
 
 </div>
@@ -13219,43 +13218,49 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/L1_fig1_comp_arch.png" alt="computer architecture"></p>
-
+<h1 id="The-First-Computer-Scientists-were-...-Scientists">The First Computer Scientists were ... Scientists<a class="anchor-link" href="#The-First-Computer-Scientists-were-...-Scientists">&#182;</a></h1><h3 id="Physics-applications">Physics applications<a class="anchor-link" href="#Physics-applications">&#182;</a></h3><h3 id="John-von-Neumann">John von Neumann<a class="anchor-link" href="#John-von-Neumann">&#182;</a></h3><h3 id="Scientific-method">Scientific method<a class="anchor-link" href="#Scientific-method">&#182;</a></h3>
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Why-do-we-care-about-that?">Why do we care about that?<a class="anchor-link" href="#Why-do-we-care-about-that?">&#182;</a></h1>
+<h1 id="Scientists-work-with-datasets">Scientists work with datasets<a class="anchor-link" href="#Scientists-work-with-datasets">&#182;</a></h1><h3 id="Tables-with-rows-and-columns">Tables with rows and columns<a class="anchor-link" href="#Tables-with-rows-and-columns">&#182;</a></h3><h3 id="Timestamps-and-measurements">Timestamps and measurements<a class="anchor-link" href="#Timestamps-and-measurements">&#182;</a></h3>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="pandas-combines-...">pandas combines ...<a class="anchor-link" href="#pandas-combines-...">&#182;</a></h1><h3 id="Safety-of-a-relational-database">Safety of a relational database<a class="anchor-link" href="#Safety-of-a-relational-database">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Coding-is-like-a-life-skill:-it-requires-study-and-practice.">Coding is like a life skill: it requires study and practice.<a class="anchor-link" href="#Coding-is-like-a-life-skill:-it-requires-study-and-practice.">&#182;</a></h3>
+<h3 id="Flexibility-of-a-spreadsheet">Flexibility of a spreadsheet<a class="anchor-link" href="#Flexibility-of-a-spreadsheet">&#182;</a></h3>
 </div>
 </div>
 </div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Practice-alone-does-not-make-a-winner-...">Practice alone does not make a winner ...<a class="anchor-link" href="#Practice-alone-does-not-make-a-winner-...">&#182;</a></h3>
+<h3 id="Computational-power-of-C-/-numpy">Computational power of C / numpy<a class="anchor-link" href="#Computational-power-of-C-/-numpy">&#182;</a></h3>
 </div>
 </div>
 </div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it."><em>Good practice</em>, with mind and body fully engaged, is how winners do it.<a class="anchor-link" href="#Good-practice,-with-mind-and-body-fully-engaged,-is-how-winners-do-it.">&#182;</a></h3>
+<h3 id="Expressiveness-of-high-end-visualization-package">Expressiveness of high end visualization package<a class="anchor-link" href="#Expressiveness-of-high-end-visualization-package">&#182;</a></h3>
 </div>
 </div>
 </div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h2 id="Lesson-1:-language-and-environment"><strong>Lesson 1: language and environment</strong><a class="anchor-link" href="#Lesson-1:-language-and-environment">&#182;</a></h2><h3 id="Lesson-2:-values,-variables,-and-expressions">Lesson 2: values, variables, and expressions<a class="anchor-link" href="#Lesson-2:-values,-variables,-and-expressions">&#182;</a></h3><h4 id="Lessons-3-5:-programming-logic">Lessons 3-5: programming logic<a class="anchor-link" href="#Lessons-3-5:-programming-logic">&#182;</a></h4><h4 id="Lessons-6-10:-data-structures">Lessons 6-10: data structures<a class="anchor-link" href="#Lessons-6-10:-data-structures">&#182;</a></h4><h4 id="Lessons-11-12:-advanced-topics">Lessons 11-12: advanced topics<a class="anchor-link" href="#Lessons-11-12:-advanced-topics">&#182;</a></h4><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
+<h1 id="Roadmap">Roadmap<a class="anchor-link" href="#Roadmap">&#182;</a></h1><h4 id="Lessons-1-5:-basics-&amp;-logic">Lessons 1-5: basics &amp; logic<a class="anchor-link" href="#Lessons-1-5:-basics-&amp;-logic">&#182;</a></h4><h4 id="Lesson-6-10:-standard-library">Lesson 6-10: standard library<a class="anchor-link" href="#Lesson-6-10:-standard-library">&#182;</a></h4><h2 id="Lesson-11:-pandas-DataFrames"><strong>Lesson 11: pandas DataFrames</strong><a class="anchor-link" href="#Lesson-11:-pandas-DataFrames">&#182;</a></h2><h3 id="Lesson-12:-JSON-and-time-series">Lesson 12: JSON and time series<a class="anchor-link" href="#Lesson-12:-JSON-and-time-series">&#182;</a></h3><h4 id="Final-Project">Final Project<a class="anchor-link" href="#Final-Project">&#182;</a></h4>
 </div>
 </div>
 </div></section></section>
