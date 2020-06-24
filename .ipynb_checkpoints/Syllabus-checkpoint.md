@@ -33,7 +33,7 @@ Email: chuntley@fairfield.edu
 * **Websites:**  
     * Class documents (including this syllabus) are in [Dr. Huntley's GitHub repository](https://github.com/christopherhuntley/buan5405-docs).
     * Programming assignments are posted and managed in GitHub Classroom.
-    * Class communications will be via Slack at fairfield-dolan.slack.com. 
+    * Class communications will be via [Slack at fairfield-dolan.slack.com](Slack.md). 
     * [DataCamp](https://datacamp.com) exercises will be used to complement the class lessons.
     * The official [Python 3 Documentation](https://docs.python.org/3/index.html) covers the Python language and all built-in libraries. When in doubt, [RTFM](https://en.wikipedia.org/wiki/RTFM)
 
@@ -42,12 +42,12 @@ This is a graduate class intended for aspiring *professionals*:
 
 * **Set aside at least 10 hours per week for completing your assignments.** Consider yourself fortunate if you can complete it faster than that, but also make sure that you are not missing something important. Then use the remaining time to study on your own. 
 * **Do your own work.** There is no professional benefit to pretending that somebody else's work is your own. We will follow the university's academic honesty policy to the letter. 
-> It is expected that all work done for this class will be in strict compliance with the principles of academic honesty and integrity, as outlined in the Student Catalog. Cheating, plagiarism, copying, or dishonesty of any kind is not acceptable and will result in a zero for the exam or assignment and possible a failing grade for the class, and/or expulsion from the program.
+  > It is expected that all work done for this class will be in strict compliance with the principles of academic honesty and integrity, as outlined in the Student Catalog. Cheating, plagiarism, copying, or dishonesty of any kind is not acceptable and will result in a zero for the exam or assignment and possible a failing grade for the class, and/or expulsion from the program.
 
-  In addition you will have to swear to the following pledge on any graded work: 
+   In addition you will have to swear to the following pledge on any graded work: 
   > On my honor as a Fairfield University student, I have neither given nor received any unauthorized aid on this assignment.    
 
-    The pledge is a contract. Failure to comply will result in an F for the _course_. So, try to avoid even the appearance of misconduct. 
+   The pledge is a contract. Failure to comply will result in an F for the _course_. So, try to avoid even the appearance of misconduct. 
 
 * **Be a good teammate and class citizen.** Free-riding and other unprofessional behavior will result in immediate consequences, which may include failing the course.
 
@@ -103,44 +103,47 @@ After scaling, the expected grade distribution is approximately:
 | **0**    | **Course Onboarding**            |         |          |
 |      | Reading: Py4E Chapter 1          |         | July 6   |
 |      | [Getting Started](https://christopherhuntley.github.io/BUAN5405-docs/)                  | July 1  | July 6   |
-|      | Lesson 0: Course Introduction    | July 1  | July 6   |
+|      | Lesson 0: Course Introduction    |         | July 6   |
 | **1**    | **Getting Started**              |         |          |
 |      | Reading: Py4E Chapter 2          |         | July 12  |
-|      | Lesson 1: Python Preliminaries   | July 6  | July 12  |
-|      | Lesson 2: Basic Computation      | July 6  | July 12  |
+|      | Lesson 1: Python Preliminaries   |         | July 12  |
+|      | Lesson 2: Basic Computation      |         | July 12  |
 |      | Datacamp: Introduction to Python |         | July 12  |
 |      | **_Quiz 1_**                           | July 12 | July 13  |
 | **2**    | **Structured Logic**             |         |          |
 |      | Reading: Py4E Chapter 3          |         | July 16  |
-|      | Lesson 3: Conditional Execution  | July 13 | July 16  |
+|      | Lesson 3: Conditional Execution  |         | July 16  |
 |      | Datacamp: Python Lists           |         | July 16  |
 |      | Reading: Py4E Chapter 4          |         | July 18  |
-|      | Lesson 4: Functions              | July 13 | July 18  |
+|      | Lesson 4: Functions              |         | July 18  |
 |      | DataCamp: Functions and Packages |         | July 18  |
 |      | Reading: Py4E Chapter 5          |         | July 19  |
-|      | Lesson 5: Iteration              | July 13 | July 19  |
+|      | Lesson 5: Iteration              |         | July 19  |
 |      | **_Quiz 2_**                           | July 19 | July 20  |
 | **3**    | **Data Structures**              |         |          |
 |      | Reading: Py4E Chapter 6          |         | July 24  |
-|      | Lesson 6: Strings                | July 20 | July 24  |
+|      | Lesson 6: Strings                |         | July 24  |
 |      | Reading: Py4E Chapter 7          |         | July 24  |
-|      | Lesson 7: Files                  | July 20 | July 24  |
+|      | Lesson 7: Files                  |         | July 24  |
+|      | DataCamp: Fundamental data types |         | July 24  |
 |      | Reading: Py4E Chapter 8          |         | July 26  |
-|      | Lesson 8: Lists                  | July 20 | July 26  |
+|      | Lesson 8: Lists                  |         | July 26  |
 |      | **_Quiz 3_**                           | July 26 | July 27  |
 | **4**    | **Data Structures (cont.)**      |         |          |
-|      | **_Project Assigned_**               | July 27 |          |
 |      | Reading: Py4E Chapter 9          |         | July 30  |
-|      | Lesson 9: Dicts                  | July 27 | July 30  |
+|      | DataCamp: Dictionaries -- the root of Python | | July 30|
+|      | Lesson 9: Dicts                  |         | July 30  |
 |      | Reading: Py4E Chapter 10         |         | August 2  |
-|      | Lesson 10: Tuples                | July 27 | August 2 |
-|      | DataCamp: Data Types for Data Science in Python | | August 2|
+|      | Lesson 10: Tuples                |         | August 2 |
 |      | **_Quiz 4_**                           | August 2 | August 3|
 | **5**    | **Advanced Data Structures**     |          |         |
-|      | Lesson 11: Nested Hierarchies    | August 3 | August 5|
+|      | **_Final Project Assigned_**                   | August 4 | |
+|      | DataCamp: pandas Foundations |              | August 5|
+|      | Lesson 11: pandas   Series and DataFrames   |  | August 5|
 |      | **_Quiz 5_**                           | August 6 | August 8|
-|      | Lesson 12: pandas DataFrames     | August 3 | August 8|
-|      | DataCamp: pandas Foundations     |          | August 8|
+|      | DataCamp:  Meet the collections Module    |          | August 8|
+|      | DataCamp:  Handling Dates and Times    |          | August 8|
+|      | Lesson 12: Odds and Ends     |   | August 8|
 | **6**    | **Final Project**                |          |         |
 |      | **_Code Submitted via GitHub_**        |          | August 12|
 |      | **_Presentation via Youtube_**         |          | August 14|
