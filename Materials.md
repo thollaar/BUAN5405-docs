@@ -3,8 +3,9 @@
 All docs and lessons are works in progress (typos, missing video, etc.) to be finished by July 1. Yikes. 
 
 ## Docs
-[Syllabus](https://christopherhuntley.github.io/BUAN5405-docs/Syllabus.html)
-[Getting Started](https://github.com/christopherhuntley/buan5405-docs)(need to write a couple bash scripts and finish writeup)
+- [Syllabus](https://christopherhuntley.github.io/BUAN5405-docs/Syllabus.html)
+- [Getting Started](https://github.com/christopherhuntley/buan5405-docs)
+- [Solutions to problems](Solutions.ipynb)
 
 ## Lessons in Colab
 - [Lesson 0](https://colab.research.google.com/github/christopherhuntley/BUAN5405-docs/blob/master/L0_Course_Onboarding.ipynb)  Course Onboarding
