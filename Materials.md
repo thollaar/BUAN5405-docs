@@ -4,7 +4,7 @@ All docs and lessons are works in progress (typos, missing video, etc.) to be fi
 
 ## Docs
 [Syllabus](https://christopherhuntley.github.io/BUAN5405-docs/Syllabus.html)
-[Getting Started](https://github.com/christopherhuntley/buan5405-docs)(need to write a couple bash scripts and finish writeup)
+[Getting Started](https://github.com/christopherhuntley/buan5405-docs)
 
 ## Lessons in Colab
 - [Lesson 0](https://colab.research.google.com/github/christopherhuntley/BUAN5405-docs/blob/master/L0_Course_Onboarding.ipynb)  Course Onboarding
@@ -20,3 +20,4 @@ All docs and lessons are works in progress (typos, missing video, etc.) to be fi
 - [Lesson 10](https://colab.research.google.com/github/christopherhuntley/BUAN5405-lessons/blob/master/L10_Tuples.ipynb) Tuples
 - [Lesson 11](https://colab.research.google.com/github/christopherhuntley/BUAN5405-lessons/blob/master/L11_DataFrames.ipynb) DataFrames 
 - [Lesson 12](https://colab.research.google.com/github/christopherhuntley/BUAN5405-lessons/blob/master/L12_Odds_Ends.ipynb) Odds and Ends 
+- [Solutions to problems](Solutions.ipynb)
