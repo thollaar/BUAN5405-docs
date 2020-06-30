@@ -1,6 +1,6 @@
 {
   "name": "reveal.js",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "The HTML Presentation Framework",
   "homepage": "https://revealjs.com",
   "subdomain": "revealjs",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp"
   },
   "author": {
     "name": "Hakim El Hattab",
