@@ -1,6 +1,6 @@
 # BUAN 5405 Course Materials
 
-All docs and lessons are works in progress (typos, missing video, etc.) to be finished by July 1. Yikes. 
+All docs and lessons are continual works in progress. 
 
 ## Docs
 - [Syllabus](https://christopherhuntley.github.io/BUAN5405-docs/Syllabus.html)
