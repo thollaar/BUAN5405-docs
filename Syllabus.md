@@ -137,7 +137,6 @@ After scaling, the expected grade distribution is approximately:
 |      | Lesson 10: Tuples                |         | August 2 |
 |      | **_Quiz 4_**                           | August 2 | August 3|
 | **5**    | **Advanced Data Structures**     |          |         |
-|      | **_Final Project Assigned_**                   | August 4 | |
 |      | DataCamp: pandas Foundations |              | August 5|
 |      | Lesson 11: pandas   Series and DataFrames   |  | August 5|
 |      | **_Quiz 5_**                           | August 6 | August 8|
