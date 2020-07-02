@@ -137,11 +137,11 @@ After scaling, the expected grade distribution is approximately:
 |      | Lesson 10: Tuples                |         | August 2 |
 |      | **_Quiz 4_**                           | August 2 | August 3|
 | **5**    | **Advanced Data Structures**     |          |         |
-|      | DataCamp: pandas Foundations |              | August 5|
+|      | DataCamp: pandas Basics |              | August 5|
 |      | Lesson 11: pandas   Series and DataFrames   |  | August 5|
 |      | **_Quiz 5_**                           | August 6 | August 8|
-|      | DataCamp:  Meet the collections Module    |          | August 8|
-|      | DataCamp:  Handling Dates and Times    |          | August 8|
+|      | DataCamp:  Exploratory Data Analysis    |          | August 8|
+|      | DataCamp:  Time Series in pandas    |          | August 8|
 |      | Lesson 12: Odds and Ends     |   | August 8|
 | **6**    | **Final Project**                |          |         |
 |      | **_Code Submitted via GitHub_**        |          | August 14|
