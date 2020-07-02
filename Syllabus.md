@@ -144,8 +144,7 @@ After scaling, the expected grade distribution is approximately:
 |      | DataCamp:  Handling Dates and Times    |          | August 8|
 |      | Lesson 12: Odds and Ends     |   | August 8|
 | **6**    | **Final Project**                |          |         |
-|      | **_Code Submitted via GitHub_**        |          | August 13|
-|      | **_Presentation via Youtube_**         |          | August 14|
+|      | **_Code Submitted via GitHub_**        |          | August 14|
 
 
 
