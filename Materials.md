@@ -21,3 +21,4 @@ All docs and lessons are continual works in progress.
 - [Lesson 10](https://colab.research.google.com/github/christopherhuntley/BUAN5405-lessons/blob/master/L10_Tuples.ipynb) Tuples
 - [Lesson 11](https://colab.research.google.com/github/christopherhuntley/BUAN5405-lessons/blob/master/L11_DataFrames.ipynb) DataFrames 
 - [Lesson 12](https://colab.research.google.com/github/christopherhuntley/BUAN5405-lessons/blob/master/L12_Odds_Ends.ipynb) Odds and Ends 
+- [Lesson 13](https://colab.research.google.com/github/christopherhuntley/BUAN5405-lessons/blob/master/L13_Final_Project.ipynb) Final Project
